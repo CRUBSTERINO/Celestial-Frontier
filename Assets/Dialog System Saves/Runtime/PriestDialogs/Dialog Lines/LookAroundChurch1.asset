@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: LookAroundChurch1
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: LookAroundChurch1
+  <Speaker>k__BackingField: {fileID: 11400000, guid: cde0504c914d12341958795f14c19948, type: 2}
+  <Listener>k__BackingField: {fileID: 11400000, guid: 2e21c95148c25d2429ba0c2a693325c0, type: 2}
+  <Actions>k__BackingField: []
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: New Choice
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: c0a532210f5b12d4a92eae3afe7f8295, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: "\u0412\u043E\u0437\u043B\u0435 \u0446\u0435\u0440\u043A\u0432\u0438 \u0430\u043A\u0442\u0438\u0432\u043D\u0438\u0447\u0430\u044E\u0442
+      \u0440\u0430\u0437\u0431\u043E\u0439\u043D\u0438\u043A\u0438, \u043D\u0435
+      \u0437\u0430\u043C\u0435\u0447\u0430\u043B\u0438 \u043B\u0438 \u0412\u044B
+      \u043D\u0438\u0447\u0435\u0433\u043E \u0441\u0442\u0440\u0430\u043D\u043D\u043E\u0433\u043E?"
+  <IsSelectedByPlayer>k__BackingField: 1
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 0
+  references:
+    version: 2
+    RefIds: []

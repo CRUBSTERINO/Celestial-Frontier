@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a770417948000a04db5cb0430b2487ac, type: 3}
+  m_Name: SpaceshipMonologGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: SpaceshipMonolog
+  <BlackboardField>k__BackingField:
+  - <ID>k__BackingField: 7dbc7a53-34e3-4ed3-8b22-de3fd935a973
+    <PersonID>k__BackingField: 2b1c1d65-8e98-4870-ab50-a68af624297c
+    <FieldText>k__BackingField: Player
+    <TypeText>k__BackingField: string
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: b6527c48-9bb5-4e5a-a03d-eaa129812571
+    <Name>k__BackingField: FixSpaceshipGroup
+    <Position>k__BackingField: {x: 1049.6, y: 320}
+  - <ID>k__BackingField: 71bdad89-9ac6-44ed-a17b-687a743ab988
+    <Name>k__BackingField: LeavePlanetGroup
+    <Position>k__BackingField: {x: 1062.4, y: 1144}
+  <DialogNodes>k__BackingField:
+  - <ID>k__BackingField: 04ace309-779d-4803-8074-ede569cacd0d
+    <Title>k__BackingField: StartLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 397.6, y: 328}
+    <SpeakerNodeID>k__BackingField: a2d31a21-1c45-4e39-8511-c1bb17c1f33c
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Ein altes Raumschiff.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: '*Raumschiff reparieren*'
+      <ConnectedNodeID>k__BackingField: 2b3158f0-fa23-493d-952e-ea68fd6389dc
+    - <Text>k__BackingField: '*Planet verlassen*'
+      <ConnectedNodeID>k__BackingField: 56c4eee4-1fa6-4146-b8be-681bb8b919a8
+    - <Text>k__BackingField: '*verlassen*'
+      <ConnectedNodeID>k__BackingField: 6f66bc7b-dd23-40c9-9b17-edb995370d7d
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 1
+  - <ID>k__BackingField: 6f66bc7b-dd23-40c9-9b17-edb995370d7d
+    <Title>k__BackingField: LeaveLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1050.4, y: -8.799999}
+    <SpeakerNodeID>k__BackingField: cec94b07-4faf-462c-8f6f-88b700684402
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: ae25c851-1ece-4c09-a102-aae279adc3b9
+    <Title>k__BackingField: FixSpaceship1
+    <GroupID>k__BackingField: b6527c48-9bb5-4e5a-a03d-eaa129812571
+    <Position>k__BackingField: {x: 1837.6, y: 380}
+    <SpeakerNodeID>k__BackingField: 5651a50c-a8fe-409f-8752-8a95d4588056
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: d9abc21f-3de0-4a22-87e7-8bbc39a00d8f
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 43c30b7e-dd72-495d-abf4-0db007dd2934
+    <Title>k__BackingField: LeavePlanet1
+    <GroupID>k__BackingField: 71bdad89-9ac6-44ed-a17b-687a743ab988
+    <Position>k__BackingField: {x: 1716.8, y: 1204}
+    <SpeakerNodeID>k__BackingField: f7007fe1-1348-4b5e-9331-e642e50aac1a
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: fb1c5c11-a44c-4e02-bbd1-063c088a571e
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  <PersonNodes>k__BackingField:
+  - <ID>k__BackingField: a2d31a21-1c45-4e39-8511-c1bb17c1f33c
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 116, y: 522.4}
+    <BlackboardFieldID>k__BackingField: 7dbc7a53-34e3-4ed3-8b22-de3fd935a973
+  - <ID>k__BackingField: cec94b07-4faf-462c-8f6f-88b700684402
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 780, y: 189.59999}
+    <BlackboardFieldID>k__BackingField: 7dbc7a53-34e3-4ed3-8b22-de3fd935a973
+  - <ID>k__BackingField: 5651a50c-a8fe-409f-8752-8a95d4588056
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: b6527c48-9bb5-4e5a-a03d-eaa129812571
+    <Position>k__BackingField: {x: 1562.4, y: 623.2}
+    <BlackboardFieldID>k__BackingField: 7dbc7a53-34e3-4ed3-8b22-de3fd935a973
+  - <ID>k__BackingField: f7007fe1-1348-4b5e-9331-e642e50aac1a
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 71bdad89-9ac6-44ed-a17b-687a743ab988
+    <Position>k__BackingField: {x: 1348, y: 1419.2}
+    <BlackboardFieldID>k__BackingField: 7dbc7a53-34e3-4ed3-8b22-de3fd935a973
+  <ConditionNodes>k__BackingField:
+  - <ID>k__BackingField: 2b3158f0-fa23-493d-952e-ea68fd6389dc
+    <Title>k__BackingField: FixSpaceshipCondition
+    <GroupID>k__BackingField: b6527c48-9bb5-4e5a-a03d-eaa129812571
+    <Position>k__BackingField: {x: 1075.2, y: 380}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062628162
+    - rid: 9032775280062628163
+    - rid: 9032775280062628164
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: ae25c851-1ece-4c09-a102-aae279adc3b9
+  - <ID>k__BackingField: 56c4eee4-1fa6-4146-b8be-681bb8b919a8
+    <Title>k__BackingField: LeavePlanetCondition
+    <GroupID>k__BackingField: 71bdad89-9ac6-44ed-a17b-687a743ab988
+    <Position>k__BackingField: {x: 1088, y: 1204}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062628165
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: 43c30b7e-dd72-495d-abf4-0db007dd2934
+  <ActionNodes>k__BackingField:
+  - <ID>k__BackingField: d9abc21f-3de0-4a22-87e7-8bbc39a00d8f
+    <Title>k__BackingField: FixSpacehipAction
+    <GroupID>k__BackingField: b6527c48-9bb5-4e5a-a03d-eaa129812571
+    <Position>k__BackingField: {x: 1232, y: 722.4}
+    <Actions>k__BackingField:
+    - rid: 9032775280062628166
+    - rid: 9032775280062628167
+    - rid: 9032775280062628168
+  - <ID>k__BackingField: fb1c5c11-a44c-4e02-bbd1-063c088a571e
+    <Title>k__BackingField: ActionName
+    <GroupID>k__BackingField: 71bdad89-9ac6-44ed-a17b-687a743ab988
+    <Position>k__BackingField: {x: 1088, y: 1508.7999}
+    <Actions>k__BackingField:
+    - rid: 9032775280062628169
+    - rid: 9032775280062628170
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775280062628162
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 60d4851122cd6b5429853d72784a1fc3, type: 2}
+    - rid: 9032775280062628163
+      type: {class: ItemPresenceCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _itemConfig: {fileID: 11400000, guid: 530ab119f7fd9934a88b5c002e6ec7aa, type: 2}
+    - rid: 9032775280062628164
+      type: {class: ItemPresenceCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _itemConfig: {fileID: 11400000, guid: 10829d978e1ac7b42905379d15496256, type: 2}
+    - rid: 9032775280062628165
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 0ebb32d255a928f43b05e295abdc453f, type: 2}
+    - rid: 9032775280062628166
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 60d4851122cd6b5429853d72784a1fc3, type: 2}
+    - rid: 9032775280062628167
+      type: {class: SeizeItemDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _item: {fileID: 11400000, guid: 530ab119f7fd9934a88b5c002e6ec7aa, type: 2}
+    - rid: 9032775280062628168
+      type: {class: SeizeItemDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _item: {fileID: 11400000, guid: 10829d978e1ac7b42905379d15496256, type: 2}
+    - rid: 9032775280062628169
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 0ebb32d255a928f43b05e295abdc453f, type: 2}
+    - rid: 9032775280062628170
+      type: {class: LoadSceneDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _targetSceneEntrance: {fileID: 11400000, guid: 699104900958c24408586cfaa7da21fb, type: 2}

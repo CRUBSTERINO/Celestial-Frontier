@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a770417948000a04db5cb0430b2487ac, type: 3}
+  m_Name: PostalEmployeesHouseMonologGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: PostalEmployeesHouseMonolog
+  <BlackboardField>k__BackingField:
+  - <ID>k__BackingField: c3efc11f-7484-46ed-9406-0320ba8f28d3
+    <PersonID>k__BackingField: 2b1c1d65-8e98-4870-ab50-a68af624297c
+    <FieldText>k__BackingField: Player
+    <TypeText>k__BackingField: string
+  <Groups>k__BackingField: []
+  <DialogNodes>k__BackingField:
+  - <ID>k__BackingField: 9819628c-8c57-4a36-96b8-28a03714539e
+    <Title>k__BackingField: StartLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 433.6, y: 192.8}
+    <SpeakerNodeID>k__BackingField: d2b3de86-9b12-4581-a850-f661edf3403b
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "Die T\xFCr ist geschlossen."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: '*verlassen*'
+      <ConnectedNodeID>k__BackingField: cd735550-39f0-4d39-bc79-7b756f410095
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 1
+  - <ID>k__BackingField: cd735550-39f0-4d39-bc79-7b756f410095
+    <Title>k__BackingField: LeaveLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1156.8, y: 188.8}
+    <SpeakerNodeID>k__BackingField: eb281894-7689-4e66-86b1-f14330e40ea3
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  <PersonNodes>k__BackingField:
+  - <ID>k__BackingField: d2b3de86-9b12-4581-a850-f661edf3403b
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 125.6, y: 325.6}
+    <BlackboardFieldID>k__BackingField: c3efc11f-7484-46ed-9406-0320ba8f28d3
+  - <ID>k__BackingField: eb281894-7689-4e66-86b1-f14330e40ea3
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 881.6, y: 373.6}
+    <BlackboardFieldID>k__BackingField: c3efc11f-7484-46ed-9406-0320ba8f28d3
+  <ConditionNodes>k__BackingField: []
+  <ActionNodes>k__BackingField: []
+  references:
+    version: 2
+    RefIds: []

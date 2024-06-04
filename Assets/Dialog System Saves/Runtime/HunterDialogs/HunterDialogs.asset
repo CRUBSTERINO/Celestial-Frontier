@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6052b2be1e9039042be479fad28e1eef, type: 3}
+  m_Name: HunterDialogs
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: HunterDialogs
+  <DialogLines>k__BackingField:
+  - {fileID: 11400000, guid: 508327eadf85ac6468efe91fe1e26a59, type: 2}
+  - {fileID: 11400000, guid: 069e29b430a0d6d4ebe945e602d69e9f, type: 2}
+  - {fileID: 11400000, guid: 84b9ee08613c830418c38bfd9afd699a, type: 2}
+  - {fileID: 11400000, guid: 02cc771d12db92543bf68527c18565a8, type: 2}
+  - {fileID: 11400000, guid: 857855440d0f0f842a2e24f59bb420a9, type: 2}
+  - {fileID: 11400000, guid: b860c1aaf4cd4b74e9b41a0c9878f383, type: 2}
+  - {fileID: 11400000, guid: 04afb8b6252154142a725c9a3f4817cf, type: 2}
+  - {fileID: 11400000, guid: 85c911982652b2b4cb126298bdfe6e8c, type: 2}
+  - {fileID: 11400000, guid: 4b94923b5a78e5d438c9127e41acef5f, type: 2}
+  - {fileID: 11400000, guid: 930ba7abdf4b2ed40a83730dcc632204, type: 2}
+  <StartingDialogLine>k__BackingField: {fileID: 11400000, guid: 04afb8b6252154142a725c9a3f4817cf, type: 2}
+  <Participants>k__BackingField:
+  - {fileID: 11400000, guid: a8d21a87927a1104396d6d7c9ade4535, type: 2}
+  - {fileID: 11400000, guid: 6f1afdc52be42b149b520a6b0dc4fa63, type: 2}

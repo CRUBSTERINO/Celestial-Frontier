@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: AskAboutPoison6
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: AskAboutPoison6
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 42e2f13ff8bc853449df14109e407d81, type: 2}
+  <Listener>k__BackingField: {fileID: 11400000, guid: 545543d46ec076542a76e79756b69143, type: 2}
+  <Actions>k__BackingField: []
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Ich muss einen Blick in Ihren Lagerraum werfen.
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 81bb495bfd6fcd64fb1b90f9e934a1e5, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: It's hard to say, I don't have enough information.but I think if you manage
+      to find the stuff stolen from my storage room, you might find out more about
+      who did it.
+  - _text: But I think if you manage to find the stuff stolen from my storage room,
+      you might find out more about who did it.
+  <IsSelectedByPlayer>k__BackingField: 0
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 0
+  references:
+    version: 2
+    RefIds: []

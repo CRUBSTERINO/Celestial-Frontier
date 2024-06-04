@@ -1,0 +1,494 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a770417948000a04db5cb0430b2487ac, type: 3}
+  m_Name: PostalEmployeeDialogsGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: PostalEmployeeDialogs
+  <BlackboardField>k__BackingField:
+  - <ID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+    <PersonID>k__BackingField: 2b1c1d65-8e98-4870-ab50-a68af624297c
+    <FieldText>k__BackingField: Player
+    <TypeText>k__BackingField: string
+  - <ID>k__BackingField: 2fa1d8a1-cfe5-4f17-b02b-5cb492b01366
+    <PersonID>k__BackingField: 8b06b323-4715-465a-a5a2-d0fed61418ca
+    <FieldText>k__BackingField: Postal Employee
+    <TypeText>k__BackingField: string
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Name>k__BackingField: GetFuseParcelDialogs
+    <Position>k__BackingField: {x: 983.2, y: 250.40002}
+  - <ID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Name>k__BackingField: FindOutAboutStolenParcelTaskGroup
+    <Position>k__BackingField: {x: 1001.6, y: 1041.6}
+  - <ID>k__BackingField: f6a39c93-b5d8-4ef2-b6ae-3c9e310859a3
+    <Name>k__BackingField: MeetGroup
+    <Position>k__BackingField: {x: 1017.6, y: 1897.6}
+  <DialogNodes>k__BackingField:
+  - <ID>k__BackingField: 3e832e3a-4c5a-4752-be58-bfa95d23026d
+    <Title>k__BackingField: GetFuseParcel2
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 2408.8, y: 310.40002}
+    <SpeakerNodeID>k__BackingField: 47b60807-5fb3-4608-a133-4f9fb9d8dfbc
+    <ListenerNodeID>k__BackingField: af7243e0-ae2b-43cb-8d55-5ef07681c431
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: One moment, I will take a look
+    - <Text>k__BackingField: Sure thing, we got one parcel for him.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Kann ich es bekommen?
+      <ConnectedNodeID>k__BackingField: ad169b50-6105-409c-8eb8-7ccfe0dd9c81
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: d511491e-bf8a-4e53-8972-ef02c7e6fcb4
+    <Title>k__BackingField: GetFuseParcel4
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 3794.4, y: 310.40002}
+    <SpeakerNodeID>k__BackingField: af787471-d06e-4ecb-858e-166a6acedc14
+    <ListenerNodeID>k__BackingField: 94c46eb9-7eb1-47cc-9e4e-dbdcafa1a06f
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: All right, would you please sign here?
+    - <Text>k__BackingField: The parcel is yours, have a great day!
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Sie auch
+      <ConnectedNodeID>k__BackingField: 08611a4d-2b36-43e1-828c-289a667486f9
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: ad169b50-6105-409c-8eb8-7ccfe0dd9c81
+    <Title>k__BackingField: GetFuseParcel3
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 3081.6, y: 310.40002}
+    <SpeakerNodeID>k__BackingField: 870d3614-85e9-4118-8996-f949e0221513
+    <ListenerNodeID>k__BackingField: 3a6ed393-698f-45c9-af1d-4b3136d5eefd
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Great, he sent me to get it for him.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: d511491e-bf8a-4e53-8972-ef02c7e6fcb4
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 81b78d88-e8d7-48b5-827a-563a1d8426d1
+    <Title>k__BackingField: LeaveBase
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1323.2, y: -103.2}
+    <SpeakerNodeID>k__BackingField: 508eb786-a7e7-48e2-8f7b-c9b527280932
+    <ListenerNodeID>k__BackingField: a937117c-1abe-459d-9def-02860e0b4bf2
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 2d37ac55-9a33-48b1-96db-deb6cade6d14
+    <Title>k__BackingField: FindOutAboutParcel1
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 1777.6, y: 1101.6}
+    <SpeakerNodeID>k__BackingField: 49be2dc7-3b86-459a-9835-6db99a5229c1
+    <ListenerNodeID>k__BackingField: 4765b1ef-1067-4ee3-8901-7612b0df2028
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: The mechanic asked me to look into what happened to
+        the package he ordered
+    - <Text>k__BackingField: He recently received a letter that there had been some
+        difficulties and that there would be no delivery in the near future
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: df7ccde3-60f0-4063-8f06-459c8a12971d
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: df7ccde3-60f0-4063-8f06-459c8a12971d
+    <Title>k__BackingField: FindOutAboutParcel2
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 2517.6, y: 1101.6}
+    <SpeakerNodeID>k__BackingField: 7401b523-3845-46a9-bcb2-87e5c51bf84c
+    <ListenerNodeID>k__BackingField: 8b69052b-431b-45e1-8d70-a74ad61e062c
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: I have a suspicion that the courier was most likely
+        robbed during delivery, so there's no telling when we'll find her
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Paket enth\xE4lt Teile, die ich brauche"
+      <ConnectedNodeID>k__BackingField: f4c157a2-0125-4475-9c9c-69670b7a7849
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: f4c157a2-0125-4475-9c9c-69670b7a7849
+    <Title>k__BackingField: FindOutAboutParcel3
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 3333.6, y: 1101.6}
+    <SpeakerNodeID>k__BackingField: f9e7e392-16f5-4434-aac3-ffc4ad3d3710
+    <ListenerNodeID>k__BackingField: 60a53f6a-4462-497a-8017-3f2b9ea93c37
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: The thing is, one of the stolen packages contained parts
+        to repair a spaceship that had been ordered for a mechanic
+    - <Text>k__BackingField: I need them, and it's pretty urgent, so I'm willing
+        to help in the search.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 1a4f7c14-a3f1-40f9-a1e9-3bcdc348e416
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 1a4f7c14-a3f1-40f9-a1e9-3bcdc348e416
+    <Title>k__BackingField: FindOutAboutParcel4
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 4249.6, y: 1101.6}
+    <SpeakerNodeID>k__BackingField: 6d062ac4-bb3a-4866-9029-28c7c7018168
+    <ListenerNodeID>k__BackingField: 00a741e4-7ce2-4520-b32f-c8db96375f70
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Well, I don't know much about it, so you'd better talk
+        to the postmaster.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Das werde ich, auf Wiedersehen
+      <ConnectedNodeID>k__BackingField: f672801a-b736-4ae2-a52f-56adb07adb5e
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 9ec28f06-30d9-4ba8-9b19-d0cf06c75f52
+    <Title>k__BackingField: GetFuseParcel1
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 1685.6, y: 310.40002}
+    <SpeakerNodeID>k__BackingField: 85122607-9706-489f-af34-5b10daa3c8bc
+    <ListenerNodeID>k__BackingField: 023c4379-92dc-486b-bb29-71f94e76ccac
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Hello, are there any parcels in the name of mechanic's?
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 3e832e3a-4c5a-4752-be58-bfa95d23026d
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 071caf4f-4192-4908-bd93-ea2e1d277962
+    <Title>k__BackingField: StartLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 442.4, y: 267.2}
+    <SpeakerNodeID>k__BackingField: 9b20eb48-b0d2-4167-a7b3-5a82759aced9
+    <ListenerNodeID>k__BackingField: c24f1015-b557-4b75-b6b4-48ea7e33e8b2
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Hello, anything I can help you with?
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Gibt es Pakete f\xFCr Mechaniker?"
+      <ConnectedNodeID>k__BackingField: d77e5ffd-5ed7-4107-b17f-6c87cedc7c07
+    - <Text>k__BackingField: Es gibt Probleme mit der Zustellung meines Pakets
+      <ConnectedNodeID>k__BackingField: 44fb7877-64e7-4899-85b7-530b9d92c248
+    - <Text>k__BackingField: "Sch\xF6n, Sie kennenzulernen!"
+      <ConnectedNodeID>k__BackingField: 429b79ef-2a4b-423b-aa48-0381061f94cc
+    - <Text>k__BackingField: '*verlassen*'
+      <ConnectedNodeID>k__BackingField: 81b78d88-e8d7-48b5-827a-563a1d8426d1
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 1
+  - <ID>k__BackingField: 01c30353-8465-4d32-ae60-9f6d3a96321f
+    <Title>k__BackingField: MeetEnd
+    <GroupID>k__BackingField: f6a39c93-b5d8-4ef2-b6ae-3c9e310859a3
+    <Position>k__BackingField: {x: 3523.2, y: 1957.6}
+    <SpeakerNodeID>k__BackingField: 5ae98b84-31f0-4b0c-aaee-c08f771252bb
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 100adb70-9208-43aa-aed5-6d58e24755e4
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 08611a4d-2b36-43e1-828c-289a667486f9
+    <Title>k__BackingField: GetFuseParcelEnd
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 4823.2, y: 328.80002}
+    <SpeakerNodeID>k__BackingField: b1b7c266-cca8-47ab-a3ec-ece8562a1643
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: bb1aa169-91ac-45cd-ba92-0b71613ae8a0
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: f672801a-b736-4ae2-a52f-56adb07adb5e
+    <Title>k__BackingField: FindOutAboutParcelEnd
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 5089.6, y: 1101.6}
+    <SpeakerNodeID>k__BackingField: 16a24631-c151-4ead-9648-7e16035d51fd
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 7b428570-0a19-445e-93e4-0e714be57d4a
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: a0425737-3eb9-4132-9321-2342622fb6e0
+    <Title>k__BackingField: Meet2
+    <GroupID>k__BackingField: f6a39c93-b5d8-4ef2-b6ae-3c9e310859a3
+    <Position>k__BackingField: {x: 2232, y: 1957.6}
+    <SpeakerNodeID>k__BackingField: 54f8f095-44c4-422f-85e9-ab2535a12ab2
+    <ListenerNodeID>k__BackingField: e125951a-eacf-4cb5-9f8a-e2e6a358c1a3
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Oh, it's a pleasure to meet you too!
+    - <Text>k__BackingField: I work at the local post office. If you order anything,
+        let me know and I'll take care of the delivery.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Sch\xF6nen Tag noch"
+      <ConnectedNodeID>k__BackingField: 01c30353-8465-4d32-ae60-9f6d3a96321f
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 27b18b0e-9357-4c28-99ae-cc034088551a
+    <Title>k__BackingField: Meet1
+    <GroupID>k__BackingField: f6a39c93-b5d8-4ef2-b6ae-3c9e310859a3
+    <Position>k__BackingField: {x: 1638.4, y: 1957.6}
+    <SpeakerNodeID>k__BackingField: db0624db-97c1-4001-938b-335bf601c56b
+    <ListenerNodeID>k__BackingField: 519a64d4-d023-44fa-90d1-b4b98bad9257
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Hey, nice to meet you! I am actually new in this town.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: a0425737-3eb9-4132-9321-2342622fb6e0
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  <PersonNodes>k__BackingField:
+  - <ID>k__BackingField: 9b20eb48-b0d2-4167-a7b3-5a82759aced9
+    <Title>k__BackingField: Postal Employee
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 175.2, y: 390.40002}
+    <BlackboardFieldID>k__BackingField: 2fa1d8a1-cfe5-4f17-b02b-5cb492b01366
+  - <ID>k__BackingField: c24f1015-b557-4b75-b6b4-48ea7e33e8b2
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 175.2, y: 480.80002}
+    <BlackboardFieldID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+  - <ID>k__BackingField: af7243e0-ae2b-43cb-8d55-5ef07681c431
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 2135.2, y: 634.4}
+    <BlackboardFieldID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+  - <ID>k__BackingField: 47b60807-5fb3-4608-a133-4f9fb9d8dfbc
+    <Title>k__BackingField: Postal Employee
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 2135.2, y: 557.60004}
+    <BlackboardFieldID>k__BackingField: 2fa1d8a1-cfe5-4f17-b02b-5cb492b01366
+  - <ID>k__BackingField: 870d3614-85e9-4118-8996-f949e0221513
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 2777.6, y: 480.80002}
+    <BlackboardFieldID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+  - <ID>k__BackingField: 3a6ed393-698f-45c9-af1d-4b3136d5eefd
+    <Title>k__BackingField: Postal Employee
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 2777.6, y: 557.60004}
+    <BlackboardFieldID>k__BackingField: 2fa1d8a1-cfe5-4f17-b02b-5cb492b01366
+  - <ID>k__BackingField: af787471-d06e-4ecb-858e-166a6acedc14
+    <Title>k__BackingField: Postal Employee
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 3484, y: 480.80002}
+    <BlackboardFieldID>k__BackingField: 2fa1d8a1-cfe5-4f17-b02b-5cb492b01366
+  - <ID>k__BackingField: 94c46eb9-7eb1-47cc-9e4e-dbdcafa1a06f
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 3484, y: 557.60004}
+    <BlackboardFieldID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+  - <ID>k__BackingField: a937117c-1abe-459d-9def-02860e0b4bf2
+    <Title>k__BackingField: Postal Employee
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1057.6, y: 124}
+    <BlackboardFieldID>k__BackingField: 2fa1d8a1-cfe5-4f17-b02b-5cb492b01366
+  - <ID>k__BackingField: 508eb786-a7e7-48e2-8f7b-c9b527280932
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1057.6, y: 47.2}
+    <BlackboardFieldID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+  - <ID>k__BackingField: 4765b1ef-1067-4ee3-8901-7612b0df2028
+    <Title>k__BackingField: Postal Employee
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 1459.2, y: 1464}
+    <BlackboardFieldID>k__BackingField: 2fa1d8a1-cfe5-4f17-b02b-5cb492b01366
+  - <ID>k__BackingField: 49be2dc7-3b86-459a-9835-6db99a5229c1
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 1459.2, y: 1387.2}
+    <BlackboardFieldID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+  - <ID>k__BackingField: 8b69052b-431b-45e1-8d70-a74ad61e062c
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 2354.4, y: 1651.2}
+    <BlackboardFieldID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+  - <ID>k__BackingField: 7401b523-3845-46a9-bcb2-87e5c51bf84c
+    <Title>k__BackingField: Postal Employee
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 2350.4, y: 1574.3999}
+    <BlackboardFieldID>k__BackingField: 2fa1d8a1-cfe5-4f17-b02b-5cb492b01366
+  - <ID>k__BackingField: f9e7e392-16f5-4434-aac3-ffc4ad3d3710
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 3068.8, y: 1512}
+    <BlackboardFieldID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+  - <ID>k__BackingField: 60a53f6a-4462-497a-8017-3f2b9ea93c37
+    <Title>k__BackingField: Postal Employee
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 3068.8, y: 1597.6}
+    <BlackboardFieldID>k__BackingField: 2fa1d8a1-cfe5-4f17-b02b-5cb492b01366
+  - <ID>k__BackingField: 00a741e4-7ce2-4520-b32f-c8db96375f70
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 3991.2, y: 1645.6}
+    <BlackboardFieldID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+  - <ID>k__BackingField: 6d062ac4-bb3a-4866-9029-28c7c7018168
+    <Title>k__BackingField: Postal Employee
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 3991.2, y: 1568.7999}
+    <BlackboardFieldID>k__BackingField: 2fa1d8a1-cfe5-4f17-b02b-5cb492b01366
+  - <ID>k__BackingField: 16a24631-c151-4ead-9648-7e16035d51fd
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 4786.4, y: 1425.6}
+    <BlackboardFieldID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+  - <ID>k__BackingField: 5ae98b84-31f0-4b0c-aaee-c08f771252bb
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: f6a39c93-b5d8-4ef2-b6ae-3c9e310859a3
+    <Position>k__BackingField: {x: 2959.2, y: 2123.2}
+    <BlackboardFieldID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+  - <ID>k__BackingField: 54f8f095-44c4-422f-85e9-ab2535a12ab2
+    <Title>k__BackingField: Postal Employee
+    <GroupID>k__BackingField: f6a39c93-b5d8-4ef2-b6ae-3c9e310859a3
+    <Position>k__BackingField: {x: 1940.8, y: 2330.4}
+    <BlackboardFieldID>k__BackingField: 2fa1d8a1-cfe5-4f17-b02b-5cb492b01366
+  - <ID>k__BackingField: db0624db-97c1-4001-938b-335bf601c56b
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: f6a39c93-b5d8-4ef2-b6ae-3c9e310859a3
+    <Position>k__BackingField: {x: 1141.6, y: 2184}
+    <BlackboardFieldID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+  - <ID>k__BackingField: 519a64d4-d023-44fa-90d1-b4b98bad9257
+    <Title>k__BackingField: Postal Employee
+    <GroupID>k__BackingField: f6a39c93-b5d8-4ef2-b6ae-3c9e310859a3
+    <Position>k__BackingField: {x: 1141.6, y: 2260.8}
+    <BlackboardFieldID>k__BackingField: 2fa1d8a1-cfe5-4f17-b02b-5cb492b01366
+  - <ID>k__BackingField: e125951a-eacf-4cb5-9f8a-e2e6a358c1a3
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: f6a39c93-b5d8-4ef2-b6ae-3c9e310859a3
+    <Position>k__BackingField: {x: 1940.8, y: 2407.2}
+    <BlackboardFieldID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+  - <ID>k__BackingField: 85122607-9706-489f-af34-5b10daa3c8bc
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 1380, y: 629.60004}
+    <BlackboardFieldID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+  - <ID>k__BackingField: 023c4379-92dc-486b-bb29-71f94e76ccac
+    <Title>k__BackingField: Postal Employee
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 1379.2, y: 706.4}
+    <BlackboardFieldID>k__BackingField: 2fa1d8a1-cfe5-4f17-b02b-5cb492b01366
+  - <ID>k__BackingField: b1b7c266-cca8-47ab-a3ec-ece8562a1643
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 4157.6, y: 581.60004}
+    <BlackboardFieldID>k__BackingField: b9bc47a9-2353-4904-b0a5-ee75d55721e3
+  <ConditionNodes>k__BackingField:
+  - <ID>k__BackingField: 44fb7877-64e7-4899-85b7-530b9d92c248
+    <Title>k__BackingField: FindOutAboutParcelCondition
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 1027.2, y: 1101.6}
+    <Conditions>k__BackingField:
+    - rid: 9032775391471730700
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: 2d37ac55-9a33-48b1-96db-deb6cade6d14
+  - <ID>k__BackingField: d77e5ffd-5ed7-4107-b17f-6c87cedc7c07
+    <Title>k__BackingField: GetFuseParcelCondition
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 1008.8, y: 325.6}
+    <Conditions>k__BackingField:
+    - rid: 9032775391471730701
+    - rid: 9032775391471730702
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: 9ec28f06-30d9-4ba8-9b19-d0cf06c75f52
+  - <ID>k__BackingField: 429b79ef-2a4b-423b-aa48-0381061f94cc
+    <Title>k__BackingField: MeetCondition
+    <GroupID>k__BackingField: f6a39c93-b5d8-4ef2-b6ae-3c9e310859a3
+    <Position>k__BackingField: {x: 1043.2, y: 1957.6}
+    <Conditions>k__BackingField:
+    - rid: 9032775391471730703
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: 27b18b0e-9357-4c28-99ae-cc034088551a
+  <ActionNodes>k__BackingField:
+  - <ID>k__BackingField: 7b428570-0a19-445e-93e4-0e714be57d4a
+    <Title>k__BackingField: FindOutAboutParcelAction
+    <GroupID>k__BackingField: 4bd9e748-b716-4043-936d-83e8ade6f892
+    <Position>k__BackingField: {x: 4417.6, y: 1597.6}
+    <Actions>k__BackingField:
+    - rid: 9032775391471730704
+  - <ID>k__BackingField: 100adb70-9208-43aa-aed5-6d58e24755e4
+    <Title>k__BackingField: ActionName
+    <GroupID>k__BackingField: f6a39c93-b5d8-4ef2-b6ae-3c9e310859a3
+    <Position>k__BackingField: {x: 2959.2, y: 2320}
+    <Actions>k__BackingField:
+    - rid: 9032775391471730705
+  - <ID>k__BackingField: bb1aa169-91ac-45cd-ba92-0b71613ae8a0
+    <Title>k__BackingField: GetFuseParcelAction
+    <GroupID>k__BackingField: 93e57e48-ee44-4500-bca9-c7d236bf4935
+    <Position>k__BackingField: {x: 4157.6, y: 658.4}
+    <Actions>k__BackingField:
+    - rid: 9032775391471730706
+    - rid: 9032775391471730707
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775391471730700
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: e2e892030eac87a43a666bbd4fe36ff6, type: 2}
+    - rid: 9032775391471730701
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: d8ddefaaf384c804ebf8cf29e4d89fc0, type: 2}
+    - rid: 9032775391471730702
+      type: {class: CompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 27509eebdf3e99c4eadfced999ef09a0, type: 2}
+    - rid: 9032775391471730703
+      type: {class: UncompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 27509eebdf3e99c4eadfced999ef09a0, type: 2}
+    - rid: 9032775391471730704
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: e2e892030eac87a43a666bbd4fe36ff6, type: 2}
+    - rid: 9032775391471730705
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 27509eebdf3e99c4eadfced999ef09a0, type: 2}
+    - rid: 9032775391471730706
+      type: {class: GiveItemDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _item: {fileID: 11400000, guid: 5b81a6fbb0dc0e640af68862aad75066, type: 2}
+    - rid: 9032775391471730707
+      type: {class: AssignTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 05a854b213d53a14790ffac7b6062700, type: 2}

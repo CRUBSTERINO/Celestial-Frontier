@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c86cb20d7c8fd24cb01d7c7b1a65f5f, type: 3}
+  m_Name: DialogPromptDefault
+  m_EditorClassIdentifier: 
+  _aiRoleModelDescription: 'I want you to act as a dialog participant that rewrites
+    cues based on the given initial text. Here is your character''s description that
+    you might consider when rewriting cues: {0}'
+  _personDescription: Name - {0}; Appearance - {1}; Physical attributes - {2}; Abilities,
+    skills and knowledges - {3}; Personality traits - {4}.
+  _interlocutorLine: 'Your interlocutor says: "{0}"'
+  _rewritingPrompt: "Rewrite this cue: \"{0}\". \n\nRewrite this  cue based on the
+    given initial information, so it will match your personality. Rewrited cues should
+    be like a real human response. Any cue should be in the form of a few sentences,
+    that contain only text of the cue without quotation marks or speaker's name.
+    Do not include any unmentioned information. You should rewrite given cue, not
+    give your respond to it."

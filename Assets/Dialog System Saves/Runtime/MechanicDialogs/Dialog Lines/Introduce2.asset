@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: Introduce2
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Introduce2
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 35c3d78a9f5d91640acb5195bd79783c, type: 2}
+  <Listener>k__BackingField: {fileID: 11400000, guid: 30ec8d029ca6c0a429e015fe1b22a155, type: 2}
+  <Actions>k__BackingField: []
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Ja, wo ist das Postamt?
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 909e51484a335814684a79dc55c808d8, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: It's a rather nasty situation, I'm afraid I can't do much to help you
+      yet.
+  - _text: You can help me, though, and we'll figure something out than.
+  - _text: The fuses have blown in my workshop and I can't work without electricity
+  - _text: The fuse package should have arrived at the post office by now, can you
+      pick it up for me?
+  <IsSelectedByPlayer>k__BackingField: 0
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 0
+  references:
+    version: 2
+    RefIds: []

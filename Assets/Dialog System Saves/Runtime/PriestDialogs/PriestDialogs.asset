@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6052b2be1e9039042be479fad28e1eef, type: 3}
+  m_Name: PriestDialogs
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: PriestDialogs
+  <DialogLines>k__BackingField:
+  - {fileID: 11400000, guid: 11ef4285f877ff84088b482270bb04d0, type: 2}
+  - {fileID: 11400000, guid: 96bdf384d3f42854387b54ff41310b00, type: 2}
+  - {fileID: 11400000, guid: c0a532210f5b12d4a92eae3afe7f8295, type: 2}
+  - {fileID: 11400000, guid: 4fc8436b679ccb243a1a9e2675f227b6, type: 2}
+  - {fileID: 11400000, guid: 0ec6d73932984ef40b860fb7a01684c3, type: 2}
+  - {fileID: 11400000, guid: 075d89b16a9682e47a061bf9d0128d0c, type: 2}
+  - {fileID: 11400000, guid: 731516c1c89e7e1468d1d20f9037db4b, type: 2}
+  - {fileID: 11400000, guid: 546e52a98317336488b00ea85d83995f, type: 2}
+  - {fileID: 11400000, guid: 84a9348d088244f41b904e652e3e12e6, type: 2}
+  - {fileID: 11400000, guid: 6104cffae696e5e41a714024fa3b1a69, type: 2}
+  <StartingDialogLine>k__BackingField: {fileID: 11400000, guid: 11ef4285f877ff84088b482270bb04d0, type: 2}
+  <Participants>k__BackingField:
+  - {fileID: 11400000, guid: cde0504c914d12341958795f14c19948, type: 2}
+  - {fileID: 11400000, guid: 2e21c95148c25d2429ba0c2a693325c0, type: 2}

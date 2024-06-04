@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: MeetTavernkeeper4
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: MeetTavernkeeper4
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 545543d46ec076542a76e79756b69143, type: 2}
+  <Listener>k__BackingField: {fileID: 11400000, guid: 545543d46ec076542a76e79756b69143, type: 2}
+  <Actions>k__BackingField: []
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Nein, danke
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: e432f1fe15eb40244b9e42f2352bb487, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: So can I offer you something to drink?
+  <IsSelectedByPlayer>k__BackingField: 0
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 0
+  references:
+    version: 2
+    RefIds: []

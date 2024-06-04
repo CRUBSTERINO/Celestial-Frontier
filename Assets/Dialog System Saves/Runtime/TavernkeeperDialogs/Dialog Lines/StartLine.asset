@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: StartLine
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: StartLine
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 42e2f13ff8bc853449df14109e407d81, type: 2}
+  <Listener>k__BackingField: {fileID: 11400000, guid: 545543d46ec076542a76e79756b69143, type: 2}
+  <Actions>k__BackingField: []
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Ich bin eigentlich neu hier
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: b592b504811d2954fa4cfef69bcb2f3c, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775305167372528
+  - <Text>k__BackingField: Ich habe ein paar Fragen an Sie
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: d2f31304c06192145aac35f9dfdd90ed, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775305167372529
+  - <Text>k__BackingField: "Ich habe gestohlene Vorr\xE4te gefunden"
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: c0a66843d3a5fb744809f34815a4a7a5, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775305167372530
+  - <Text>k__BackingField: '*verlassen*'
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 50f4efc19acb0604cbb3aed4fcf33d78, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: What will you have for a drink today?
+  <IsSelectedByPlayer>k__BackingField: 0
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775305167372528
+      type: {class: UncompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 405d7f0896c5af24d86b7000196b370c, type: 2}
+    - rid: 9032775305167372529
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 4cdfe1841b3ac954a959ec70355f597f, type: 2}
+    - rid: 9032775305167372530
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 5052e933695aca148a961140a84d606c, type: 2}

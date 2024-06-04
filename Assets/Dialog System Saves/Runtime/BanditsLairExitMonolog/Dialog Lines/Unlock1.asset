@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: Unlock1
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Unlock1
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 2dba4c1c5eb4de849bdccc111916f773, type: 2}
+  <Listener>k__BackingField: {fileID: 0}
+  <Actions>k__BackingField:
+  - rid: 9032775280062627914
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: New Choice
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 86d2454b101eb5d4d999e28f76ca125c, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: "Die T\xFCr ist offen."
+  <IsSelectedByPlayer>k__BackingField: 1
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775280062627914
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 24e0bf8d4f355f6438c5c5b3924a80ee, type: 2}

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6052b2be1e9039042be479fad28e1eef, type: 3}
+  m_Name: TavernkeeperDialogs
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: TavernkeeperDialogs
+  <DialogLines>k__BackingField:
+  - {fileID: 11400000, guid: b592b504811d2954fa4cfef69bcb2f3c, type: 2}
+  - {fileID: 11400000, guid: e432f1fe15eb40244b9e42f2352bb487, type: 2}
+  - {fileID: 11400000, guid: 45cfe3fa449f0944999121cd5f6ad8a5, type: 2}
+  - {fileID: 11400000, guid: 1323c0fbe26084442a55d1f3bf9ffacf, type: 2}
+  - {fileID: 11400000, guid: 3baa5417cab9a8043806a83ba49d30f4, type: 2}
+  - {fileID: 11400000, guid: 50f4efc19acb0604cbb3aed4fcf33d78, type: 2}
+  - {fileID: 11400000, guid: d2f31304c06192145aac35f9dfdd90ed, type: 2}
+  - {fileID: 11400000, guid: d3d8c82a24675204a811b99e68f35ea7, type: 2}
+  - {fileID: 11400000, guid: 7818219d7786dd2428da707dcf2f8ac4, type: 2}
+  - {fileID: 11400000, guid: 4c47a54bfb3d2694681535f4cd02cbfa, type: 2}
+  - {fileID: 11400000, guid: 81bb495bfd6fcd64fb1b90f9e934a1e5, type: 2}
+  - {fileID: 11400000, guid: 1db1b61f54864344aa5f53e9d154b143, type: 2}
+  - {fileID: 11400000, guid: e39e400a20e96494d8f81f3a7d36e3c8, type: 2}
+  - {fileID: 11400000, guid: cc35d1742019ad342997f491f2d5447a, type: 2}
+  - {fileID: 11400000, guid: e09018e1535a8a44c8ee83749e9b6c37, type: 2}
+  - {fileID: 11400000, guid: c0a66843d3a5fb744809f34815a4a7a5, type: 2}
+  - {fileID: 11400000, guid: 89d380781adee8c4a9c93afe6ce84cbd, type: 2}
+  - {fileID: 11400000, guid: eab25cb9ea46e244b8083d2bfce20a5a, type: 2}
+  - {fileID: 11400000, guid: 2be7e05bb7ac9e842abd12fcb1900880, type: 2}
+  - {fileID: 11400000, guid: fe82b5f1c575ec642ad6cc399b834688, type: 2}
+  - {fileID: 11400000, guid: 0111397dbde8d9942bc5e752aded65f1, type: 2}
+  <StartingDialogLine>k__BackingField: {fileID: 11400000, guid: 0111397dbde8d9942bc5e752aded65f1, type: 2}
+  <Participants>k__BackingField:
+  - {fileID: 11400000, guid: 545543d46ec076542a76e79756b69143, type: 2}
+  - {fileID: 11400000, guid: 42e2f13ff8bc853449df14109e407d81, type: 2}

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: StartLine
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: StartLine
+  <Speaker>k__BackingField: {fileID: 11400000, guid: cdc6aafcd48484a42a5f3f9357a3d24f, type: 2}
+  <Listener>k__BackingField: {fileID: 11400000, guid: 561aa20d9a92c304dba09fc28633cbe2, type: 2}
+  <Actions>k__BackingField: []
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Ist Ihnen hier in letzter Zeit etwas Seltsames aufgefallen?
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 21aad1b2674f3ba448d5e516b1edafae, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775305473294359
+    - rid: 9032775305473294360
+  - <Text>k__BackingField: "Sie sagten also, Sie h\xE4tten etwas gesehen?"
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 93ddfb8e2e7b75448b6ea163c0536b6a, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775305473294371
+  - <Text>k__BackingField: Sie sind ein Fischer, richtig?
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 7aae6c4adb347d7459ec4364b3ba0ff5, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775305473294372
+  - <Text>k__BackingField: '*verlassen*'
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: aab08ee92f1fe2546bf5e4248460271e, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: Hallo, wie geht's?
+  <IsSelectedByPlayer>k__BackingField: 0
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775305473294359
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 861a75a01bdff9d408395ae29a0ac09c, type: 2}
+    - rid: 9032775305473294360
+      type: {class: CompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 278cb2b3e86bba1448a11c717b947259, type: 2}
+    - rid: 9032775305473294371
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: f70c8ea40e20c8241b60854c72e99f65, type: 2}
+    - rid: 9032775305473294372
+      type: {class: UncompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 278cb2b3e86bba1448a11c717b947259, type: 2}

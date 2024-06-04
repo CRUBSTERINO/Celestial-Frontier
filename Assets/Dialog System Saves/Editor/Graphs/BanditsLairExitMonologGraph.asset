@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a770417948000a04db5cb0430b2487ac, type: 3}
+  m_Name: BanditsLairExitMonologGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: BanditsLairExitMonolog
+  <BlackboardField>k__BackingField:
+  - <ID>k__BackingField: 19ae5ad8-b8b5-43b8-84f9-da8fb20ab871
+    <PersonID>k__BackingField: 2b1c1d65-8e98-4870-ab50-a68af624297c
+    <FieldText>k__BackingField: Player
+    <TypeText>k__BackingField: string
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 45d76b8b-ebb7-4da2-a810-937b4a8e3cb3
+    <Name>k__BackingField: UnlockGroup
+    <Position>k__BackingField: {x: 723.2, y: 152.8}
+  - <ID>k__BackingField: 148c32c7-692a-4bb5-898d-31341485f607
+    <Name>k__BackingField: ExitGroup
+    <Position>k__BackingField: {x: 708.8, y: 804}
+  <DialogNodes>k__BackingField:
+  - <ID>k__BackingField: a1812c6e-052e-4125-83b9-c1cad29ae213
+    <Title>k__BackingField: StartLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 161.6, y: 212.8}
+    <SpeakerNodeID>k__BackingField: 1029f737-49bc-4bbc-8aaa-524f18ba354b
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "Eine in die H\xF6hlenwand gemei\xDFelte Steint\xFCr."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: '*freischalten*'
+      <ConnectedNodeID>k__BackingField: 00e1dd70-a6a2-4237-bdd5-63c3108e5f55
+    - <Text>k__BackingField: '*das Versteck der Banditen verlassen*'
+      <ConnectedNodeID>k__BackingField: c4ad3cc7-baa4-4f07-90e3-8bfcc242f967
+    - <Text>k__BackingField: '*verlassen*'
+      <ConnectedNodeID>k__BackingField: 65c311d6-0a2a-4387-98ae-e768b4f63c91
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 1
+  - <ID>k__BackingField: dad69d30-2b71-4669-93ae-402b59a3c8fd
+    <Title>k__BackingField: Unlock1
+    <GroupID>k__BackingField: 45d76b8b-ebb7-4da2-a810-937b4a8e3cb3
+    <Position>k__BackingField: {x: 1510.4, y: 228.8}
+    <SpeakerNodeID>k__BackingField: cd1c0613-5a9c-4a63-9651-fda72eaee809
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: b59e61da-efa9-42b4-8f43-7f7640e0cde3
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "Die T\xFCr ist offen."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: a6012a3b-d9e0-4a2a-b070-b8fc9ca25e3e
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: a6012a3b-d9e0-4a2a-b070-b8fc9ca25e3e
+    <Title>k__BackingField: UnlockEnd
+    <GroupID>k__BackingField: 45d76b8b-ebb7-4da2-a810-937b4a8e3cb3
+    <Position>k__BackingField: {x: 1923.2, y: 228.8}
+    <SpeakerNodeID>k__BackingField: 
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: d6d7c2c9-9ca0-452e-8fc6-4306cd3985f8
+    <Title>k__BackingField: ExitEnd
+    <GroupID>k__BackingField: 148c32c7-692a-4bb5-898d-31341485f607
+    <Position>k__BackingField: {x: 1564.8, y: 864}
+    <SpeakerNodeID>k__BackingField: c0674eb3-b559-4519-bf24-94579029749a
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 6326252c-8f8c-485d-9f50-4dbb3038b0c4
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 65c311d6-0a2a-4387-98ae-e768b4f63c91
+    <Title>k__BackingField: LeaveLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 715.2, y: 1535.2}
+    <SpeakerNodeID>k__BackingField: 
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  <PersonNodes>k__BackingField:
+  - <ID>k__BackingField: cd1c0613-5a9c-4a63-9651-fda72eaee809
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 45d76b8b-ebb7-4da2-a810-937b4a8e3cb3
+    <Position>k__BackingField: {x: 1048.8, y: 427.2}
+    <BlackboardFieldID>k__BackingField: 19ae5ad8-b8b5-43b8-84f9-da8fb20ab871
+  - <ID>k__BackingField: 1029f737-49bc-4bbc-8aaa-524f18ba354b
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: -98.4, y: 336}
+    <BlackboardFieldID>k__BackingField: 19ae5ad8-b8b5-43b8-84f9-da8fb20ab871
+  - <ID>k__BackingField: c0674eb3-b559-4519-bf24-94579029749a
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 148c32c7-692a-4bb5-898d-31341485f607
+    <Position>k__BackingField: {x: 1122.4, y: 1130.3999}
+    <BlackboardFieldID>k__BackingField: 19ae5ad8-b8b5-43b8-84f9-da8fb20ab871
+  <ConditionNodes>k__BackingField:
+  - <ID>k__BackingField: 00e1dd70-a6a2-4237-bdd5-63c3108e5f55
+    <Title>k__BackingField: UnlockCondition
+    <GroupID>k__BackingField: 45d76b8b-ebb7-4da2-a810-937b4a8e3cb3
+    <Position>k__BackingField: {x: 768, y: 212.8}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062627917
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: dad69d30-2b71-4669-93ae-402b59a3c8fd
+  - <ID>k__BackingField: c4ad3cc7-baa4-4f07-90e3-8bfcc242f967
+    <Title>k__BackingField: ExitCondition
+    <GroupID>k__BackingField: 148c32c7-692a-4bb5-898d-31341485f607
+    <Position>k__BackingField: {x: 836.8, y: 864}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062627918
+    - rid: 9032775280062627919
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: d6d7c2c9-9ca0-452e-8fc6-4306cd3985f8
+  <ActionNodes>k__BackingField:
+  - <ID>k__BackingField: b59e61da-efa9-42b4-8f43-7f7640e0cde3
+    <Title>k__BackingField: UnlockAction
+    <GroupID>k__BackingField: 45d76b8b-ebb7-4da2-a810-937b4a8e3cb3
+    <Position>k__BackingField: {x: 748.8, y: 520.8}
+    <Actions>k__BackingField:
+    - rid: 9032775280062627920
+  - <ID>k__BackingField: 6326252c-8f8c-485d-9f50-4dbb3038b0c4
+    <Title>k__BackingField: ActionName
+    <GroupID>k__BackingField: 148c32c7-692a-4bb5-898d-31341485f607
+    <Position>k__BackingField: {x: 734.4, y: 1209.6}
+    <Actions>k__BackingField:
+    - rid: 9032775280062627921
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775280062627917
+      type: {class: UncompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 24e0bf8d4f355f6438c5c5b3924a80ee, type: 2}
+    - rid: 9032775280062627918
+      type: {class: InactiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 7bb034dd0626c844aa9409269558cdb9, type: 2}
+    - rid: 9032775280062627919
+      type: {class: CompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 24e0bf8d4f355f6438c5c5b3924a80ee, type: 2}
+    - rid: 9032775280062627920
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 24e0bf8d4f355f6438c5c5b3924a80ee, type: 2}
+    - rid: 9032775280062627921
+      type: {class: LoadSceneDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _targetSceneEntrance: {fileID: 11400000, guid: e829d85799f33e940a303aaf8923f681, type: 2}

@@ -1,0 +1,340 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a770417948000a04db5cb0430b2487ac, type: 3}
+  m_Name: PostmasterDialogsGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: PostmasterDialogs
+  <BlackboardField>k__BackingField:
+  - <ID>k__BackingField: 835d3c0a-45ad-4ecd-9ee7-69122a25c6e4
+    <PersonID>k__BackingField: 2b1c1d65-8e98-4870-ab50-a68af624297c
+    <FieldText>k__BackingField: Player
+    <TypeText>k__BackingField: string
+  - <ID>k__BackingField: de824088-4ca2-40d1-a5cd-baa1de2fa4c6
+    <PersonID>k__BackingField: 90340f41-1bb2-4436-81f5-ed370adafc6d
+    <FieldText>k__BackingField: Postmaster
+    <TypeText>k__BackingField: string
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Name>k__BackingField: SpeakAboutCourierTaskGroup
+    <Position>k__BackingField: {x: 1168.8, y: 468}
+  - <ID>k__BackingField: 1929dd97-05ab-4e54-a290-2f17c06642c9
+    <Name>k__BackingField: MeetGroup
+    <Position>k__BackingField: {x: 1172.8, y: 1528}
+  <DialogNodes>k__BackingField:
+  - <ID>k__BackingField: 37edeef0-c590-466e-add2-0599c550d8c6
+    <Title>k__BackingField: SpeakAboutCourier2
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 2839.2, y: 528}
+    <SpeakerNodeID>k__BackingField: 5d3f60fb-5eb1-4be0-ac6b-f7e4d1432eb4
+    <ListenerNodeID>k__BackingField: 101ea028-0d0a-42cf-b313-63b1817d8c26
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: There was such a thing, do you have any info on that
+        or what?
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Nein, aber ich m\xF6chte helfen"
+      <ConnectedNodeID>k__BackingField: 8e040b9f-7466-448f-bbef-d206d44cbef9
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 8e040b9f-7466-448f-bbef-d206d44cbef9
+    <Title>k__BackingField: SpeakAboutCourier3
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 3527.2, y: 528}
+    <SpeakerNodeID>k__BackingField: e3247889-587a-45b3-ac2a-864c62b59b48
+    <ListenerNodeID>k__BackingField: 4c8fbb13-8ad7-4459-a284-5d11e04bed45
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: I don't know anything about it, but I'd like to help
+        in the search.
+    - <Text>k__BackingField: One of the stolen packages contained spare parts that
+        I urgently need to fix my spaceship
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 3a9bffc1-1dc2-4d5b-b528-fb98e555cf5b
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: ae9a2368-27fd-47ae-9d47-8d630f3a36d7
+    <Title>k__BackingField: SpeakAboutCourier1
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 1963.2, y: 528}
+    <SpeakerNodeID>k__BackingField: b5ae4e4a-5187-4042-b0e7-f141a36842d5
+    <ListenerNodeID>k__BackingField: 24d0b8a7-a568-4524-837f-79b176e96dd7
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Hello, I heard that your courier was recently robbed
+        and the packages he was supposed to deliver were stolen
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 37edeef0-c590-466e-add2-0599c550d8c6
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 3a9bffc1-1dc2-4d5b-b528-fb98e555cf5b
+    <Title>k__BackingField: SpeakAboutCourier4
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 4316.8, y: 528}
+    <SpeakerNodeID>k__BackingField: 394c4bb0-58e6-4bdf-9943-40db46558f5b
+    <ListenerNodeID>k__BackingField: 26cdca62-7cc0-49d2-b445-5d6ed3fde9f7
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Well, I could use some help with that.
+    - <Text>k__BackingField: The courier was robbed somewhere near the lake, probably
+        in the woods, but we never found anything. You can start your search there.
+    - <Text>k__BackingField: Just please let me know if you find out something.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Ich werde auf jeden Fall
+      <ConnectedNodeID>k__BackingField: aa20f0c3-bf7c-40ac-8e5a-043bfce289f8
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: d14e50c3-acd4-4e9f-a7ad-9536d740c1d7
+    <Title>k__BackingField: LeaveBase
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1408.8, y: 80}
+    <SpeakerNodeID>k__BackingField: d2401d05-5678-4b60-8cde-5be020789451
+    <ListenerNodeID>k__BackingField: 72fe3914-616c-496c-a56a-bab2a0db59ec
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: ee4b9938-6649-4fa5-8e1e-64d41bcb6151
+    <Title>k__BackingField: StartLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 570.4, y: 368.80002}
+    <SpeakerNodeID>k__BackingField: 680f2760-b8d1-41f0-a264-9564736a1e14
+    <ListenerNodeID>k__BackingField: e3f5f813-d351-4bd6-9977-9d38bfc84f64
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Hello, anything I can help you with?
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Einige Pakete wurden gestohlen
+      <ConnectedNodeID>k__BackingField: 750e0c2e-6f5e-472b-a16b-8fff08eae4c1
+    - <Text>k__BackingField: Freut mich, Sie kennenzulernen
+      <ConnectedNodeID>k__BackingField: 68762c63-abe9-48f4-9b86-738af3023963
+    - <Text>k__BackingField: '*verlassen*'
+      <ConnectedNodeID>k__BackingField: d14e50c3-acd4-4e9f-a7ad-9536d740c1d7
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 1
+  - <ID>k__BackingField: 6d66fd03-b8fd-44b5-b970-605dba7e5815
+    <Title>k__BackingField: MeetEnd
+    <GroupID>k__BackingField: 1929dd97-05ab-4e54-a290-2f17c06642c9
+    <Position>k__BackingField: {x: 3559.2, y: 1588}
+    <SpeakerNodeID>k__BackingField: 7965fae4-2c7f-482f-9281-0e8e408c694d
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 7a75e697-ccda-4e03-bf9c-7ccba4136199
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: f44b90d8-16f3-46e9-b374-ca4a713063d5
+    <Title>k__BackingField: Meet1
+    <GroupID>k__BackingField: 1929dd97-05ab-4e54-a290-2f17c06642c9
+    <Position>k__BackingField: {x: 1952.8, y: 1588}
+    <SpeakerNodeID>k__BackingField: 555bd7a9-3f83-4bb6-994c-ccbc00a39d1c
+    <ListenerNodeID>k__BackingField: f3f86a2d-6503-47a1-bfaf-7f99aa2a360d
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Good afternoon, I am since recent in this town.
+    - <Text>k__BackingField: I heard that you're a director of the local post office.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 6953a3fe-c037-4598-b5b0-54d29fe9961e
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 6953a3fe-c037-4598-b5b0-54d29fe9961e
+    <Title>k__BackingField: Meet2
+    <GroupID>k__BackingField: 1929dd97-05ab-4e54-a290-2f17c06642c9
+    <Position>k__BackingField: {x: 2652, y: 1588}
+    <SpeakerNodeID>k__BackingField: 0631e9e0-7183-4c38-b176-34c8feb37321
+    <ListenerNodeID>k__BackingField: 7580a0cc-4909-4b94-82ea-605e7b169ea0
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Yes, that's right. If you have any questions about your
+        parcels than you can ask me.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Das werde ich, danke
+      <ConnectedNodeID>k__BackingField: 6d66fd03-b8fd-44b5-b970-605dba7e5815
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: aa20f0c3-bf7c-40ac-8e5a-043bfce289f8
+    <Title>k__BackingField: SpeakAboutCourierEnd
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 5271.2, y: 528}
+    <SpeakerNodeID>k__BackingField: 29670fd8-d75d-49f4-868b-c6ad24bacd53
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 2c642147-5a0d-45c7-981e-167574e7d33c
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  <PersonNodes>k__BackingField:
+  - <ID>k__BackingField: e3f5f813-d351-4bd6-9977-9d38bfc84f64
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 219.2, y: 612.8}
+    <BlackboardFieldID>k__BackingField: 835d3c0a-45ad-4ecd-9ee7-69122a25c6e4
+  - <ID>k__BackingField: 680f2760-b8d1-41f0-a264-9564736a1e14
+    <Title>k__BackingField: Postmaster
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 219.2, y: 536}
+    <BlackboardFieldID>k__BackingField: de824088-4ca2-40d1-a5cd-baa1de2fa4c6
+  - <ID>k__BackingField: 5d3f60fb-5eb1-4be0-ac6b-f7e4d1432eb4
+    <Title>k__BackingField: Postmaster
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 2572.8, y: 924}
+    <BlackboardFieldID>k__BackingField: de824088-4ca2-40d1-a5cd-baa1de2fa4c6
+  - <ID>k__BackingField: 101ea028-0d0a-42cf-b313-63b1817d8c26
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 2572.8, y: 1000.8}
+    <BlackboardFieldID>k__BackingField: 835d3c0a-45ad-4ecd-9ee7-69122a25c6e4
+  - <ID>k__BackingField: e3247889-587a-45b3-ac2a-864c62b59b48
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 3213.6, y: 924}
+    <BlackboardFieldID>k__BackingField: 835d3c0a-45ad-4ecd-9ee7-69122a25c6e4
+  - <ID>k__BackingField: 4c8fbb13-8ad7-4459-a284-5d11e04bed45
+    <Title>k__BackingField: Postmaster
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 3213.6, y: 1000.8}
+    <BlackboardFieldID>k__BackingField: de824088-4ca2-40d1-a5cd-baa1de2fa4c6
+  - <ID>k__BackingField: 26cdca62-7cc0-49d2-b445-5d6ed3fde9f7
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 4028.8, y: 1039.2}
+    <BlackboardFieldID>k__BackingField: 835d3c0a-45ad-4ecd-9ee7-69122a25c6e4
+  - <ID>k__BackingField: 394c4bb0-58e6-4bdf-9943-40db46558f5b
+    <Title>k__BackingField: Postmaster
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 4028.8, y: 962.4}
+    <BlackboardFieldID>k__BackingField: de824088-4ca2-40d1-a5cd-baa1de2fa4c6
+  - <ID>k__BackingField: 29670fd8-d75d-49f4-868b-c6ad24bacd53
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 4864, y: 1004.00006}
+    <BlackboardFieldID>k__BackingField: 835d3c0a-45ad-4ecd-9ee7-69122a25c6e4
+  - <ID>k__BackingField: d2401d05-5678-4b60-8cde-5be020789451
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1113.6, y: 292}
+    <BlackboardFieldID>k__BackingField: 835d3c0a-45ad-4ecd-9ee7-69122a25c6e4
+  - <ID>k__BackingField: 72fe3914-616c-496c-a56a-bab2a0db59ec
+    <Title>k__BackingField: Postmaster
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1113.6, y: 368.80002}
+    <BlackboardFieldID>k__BackingField: de824088-4ca2-40d1-a5cd-baa1de2fa4c6
+  - <ID>k__BackingField: 7965fae4-2c7f-482f-9281-0e8e408c694d
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 1929dd97-05ab-4e54-a290-2f17c06642c9
+    <Position>k__BackingField: {x: 3278.4, y: 1795.2}
+    <BlackboardFieldID>k__BackingField: 835d3c0a-45ad-4ecd-9ee7-69122a25c6e4
+  - <ID>k__BackingField: 7580a0cc-4909-4b94-82ea-605e7b169ea0
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 1929dd97-05ab-4e54-a290-2f17c06642c9
+    <Position>k__BackingField: {x: 2416, y: 1964.7999}
+    <BlackboardFieldID>k__BackingField: 835d3c0a-45ad-4ecd-9ee7-69122a25c6e4
+  - <ID>k__BackingField: 0631e9e0-7183-4c38-b176-34c8feb37321
+    <Title>k__BackingField: Postmaster
+    <GroupID>k__BackingField: 1929dd97-05ab-4e54-a290-2f17c06642c9
+    <Position>k__BackingField: {x: 2416, y: 1872}
+    <BlackboardFieldID>k__BackingField: de824088-4ca2-40d1-a5cd-baa1de2fa4c6
+  - <ID>k__BackingField: 555bd7a9-3f83-4bb6-994c-ccbc00a39d1c
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 1929dd97-05ab-4e54-a290-2f17c06642c9
+    <Position>k__BackingField: {x: 1613.6, y: 1809.6}
+    <BlackboardFieldID>k__BackingField: 835d3c0a-45ad-4ecd-9ee7-69122a25c6e4
+  - <ID>k__BackingField: f3f86a2d-6503-47a1-bfaf-7f99aa2a360d
+    <Title>k__BackingField: Postmaster
+    <GroupID>k__BackingField: 1929dd97-05ab-4e54-a290-2f17c06642c9
+    <Position>k__BackingField: {x: 1613.6, y: 1888}
+    <BlackboardFieldID>k__BackingField: de824088-4ca2-40d1-a5cd-baa1de2fa4c6
+  - <ID>k__BackingField: b5ae4e4a-5187-4042-b0e7-f141a36842d5
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 1575.2, y: 828}
+    <BlackboardFieldID>k__BackingField: 835d3c0a-45ad-4ecd-9ee7-69122a25c6e4
+  - <ID>k__BackingField: 24d0b8a7-a568-4524-837f-79b176e96dd7
+    <Title>k__BackingField: Postmaster
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 1575.2, y: 904.8}
+    <BlackboardFieldID>k__BackingField: de824088-4ca2-40d1-a5cd-baa1de2fa4c6
+  <ConditionNodes>k__BackingField:
+  - <ID>k__BackingField: 68762c63-abe9-48f4-9b86-738af3023963
+    <Title>k__BackingField: MeetCondition
+    <GroupID>k__BackingField: 1929dd97-05ab-4e54-a290-2f17c06642c9
+    <Position>k__BackingField: {x: 1198.4, y: 1588}
+    <Conditions>k__BackingField:
+    - rid: 9032775305167372487
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: f44b90d8-16f3-46e9-b374-ca4a713063d5
+  - <ID>k__BackingField: 750e0c2e-6f5e-472b-a16b-8fff08eae4c1
+    <Title>k__BackingField: SpeakAboutCourierCondition
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 1194.4, y: 528}
+    <Conditions>k__BackingField:
+    - rid: 9032775305167372488
+    - rid: 9032775305167372489
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: ae9a2368-27fd-47ae-9d47-8d630f3a36d7
+  <ActionNodes>k__BackingField:
+  - <ID>k__BackingField: 2c642147-5a0d-45c7-981e-167574e7d33c
+    <Title>k__BackingField: SpeakAboutCourierAction
+    <GroupID>k__BackingField: bd7415e8-da5e-4f97-b126-d2bf060d9993
+    <Position>k__BackingField: {x: 4483.2, y: 1175.2}
+    <Actions>k__BackingField:
+    - rid: 9032775305167372490
+  - <ID>k__BackingField: 7a75e697-ccda-4e03-bf9c-7ccba4136199
+    <Title>k__BackingField: MeetAction
+    <GroupID>k__BackingField: 1929dd97-05ab-4e54-a290-2f17c06642c9
+    <Position>k__BackingField: {x: 2996, y: 1989.6}
+    <Actions>k__BackingField:
+    - rid: 9032775305167372491
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775305167372487
+      type: {class: UncompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 9088aa0e248f3e04ab53ceeb8258e693, type: 2}
+    - rid: 9032775305167372488
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 1ab852b56f57f5c48aeafc330ea21f15, type: 2}
+    - rid: 9032775305167372489
+      type: {class: CompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 9088aa0e248f3e04ab53ceeb8258e693, type: 2}
+    - rid: 9032775305167372490
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 1ab852b56f57f5c48aeafc330ea21f15, type: 2}
+    - rid: 9032775305167372491
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 9088aa0e248f3e04ab53ceeb8258e693, type: 2}

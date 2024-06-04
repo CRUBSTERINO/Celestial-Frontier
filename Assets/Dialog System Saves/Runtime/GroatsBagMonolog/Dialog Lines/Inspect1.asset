@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: Inspect1
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Inspect1
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 8b6d4c9e1cab02b4bbc20a57ac302eaa, type: 2}
+  <Listener>k__BackingField: {fileID: 0}
+  <Actions>k__BackingField:
+  - rid: 9032775280062628209
+  - rid: 9032775280062628210
+  - rid: 9032775280062628211
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: New Choice
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: db2215aeae699544aa4e6d8ed95fca66, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: Ich glaube, dieser Sack ist zerrissen.
+  - _text: "Hmm, da ist eine Spur, die direkt zum Fenster f\xFChrt."
+  - _text: Ich muss dieser Spur folgen.
+  <IsSelectedByPlayer>k__BackingField: 0
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775280062628209
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 68a2d7e02b7e2bd41a889920ad98a267, type: 2}
+    - rid: 9032775280062628210
+      type: {class: SpawnPrefabDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _prefab: {fileID: 4046794309127352743, guid: db9d5209e0def094e981e1eda743168e, type: 3}
+        _position: {x: 17, y: 17, z: 0}
+    - rid: 9032775280062628211
+      type: {class: SpawnPrefabDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _prefab: {fileID: 8087968279695805023, guid: b15982fb788aa0d418f355ea1f0eb1b6, type: 3}
+        _position: {x: 12.75, y: 13.5, z: 0}

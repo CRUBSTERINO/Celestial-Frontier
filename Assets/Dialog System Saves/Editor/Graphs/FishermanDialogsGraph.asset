@@ -1,0 +1,538 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a770417948000a04db5cb0430b2487ac, type: 3}
+  m_Name: FishermanDialogsGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: FishermanDialogs
+  <BlackboardField>k__BackingField:
+  - <ID>k__BackingField: 105a45f3-8bb7-4d38-8d4f-44bcb732e63b
+    <PersonID>k__BackingField: 2b1c1d65-8e98-4870-ab50-a68af624297c
+    <FieldText>k__BackingField: Player
+    <TypeText>k__BackingField: string
+  - <ID>k__BackingField: e361dde0-446a-4807-b500-e67199beb748
+    <PersonID>k__BackingField: 5d6ade1e-7294-4264-84af-5a004618402c
+    <FieldText>k__BackingField: Fisherman
+    <TypeText>k__BackingField: string
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Name>k__BackingField: LookForCourierAtLakeTaskGroup
+    <Position>k__BackingField: {x: 823.2, y: 446.40005}
+  - <ID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Name>k__BackingField: TalkAfterFishingTrainingTaskGroup
+    <Position>k__BackingField: {x: 831.2, y: 1408}
+  - <ID>k__BackingField: 60f91c1e-3652-4a57-b258-abc84602f7ce
+    <Name>k__BackingField: MeetGroup
+    <Position>k__BackingField: {x: 832, y: 2198.4}
+  <DialogNodes>k__BackingField:
+  - <ID>k__BackingField: cfacbf23-2288-49fc-9fce-955c61cc160e
+    <Title>k__BackingField: LeaveBase
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 856.8, y: -25.599998}
+    <SpeakerNodeID>k__BackingField: 
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 9528bacb-f1ab-466d-b39a-f09660dd7f2b
+    <Title>k__BackingField: StartLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 240, y: 251.99998}
+    <SpeakerNodeID>k__BackingField: 8e9c8656-07bd-4163-954f-8e3c289abdc6
+    <ListenerNodeID>k__BackingField: e41d2b08-a5bc-4a6c-b536-246d740fb594
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Hallo, wie geht's?
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Ist Ihnen hier in letzter Zeit etwas Seltsames aufgefallen?
+      <ConnectedNodeID>k__BackingField: d523abdb-17ce-42b0-985b-8bb57b9fba67
+    - <Text>k__BackingField: "Sie sagten also, Sie h\xE4tten etwas gesehen?"
+      <ConnectedNodeID>k__BackingField: 422c9944-ff4b-48fe-8683-d0def7849e7b
+    - <Text>k__BackingField: Sie sind ein Fischer, richtig?
+      <ConnectedNodeID>k__BackingField: 0df38522-7395-467b-a093-5c077595bca3
+    - <Text>k__BackingField: '*verlassen*'
+      <ConnectedNodeID>k__BackingField: cfacbf23-2288-49fc-9fce-955c61cc160e
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 1
+  - <ID>k__BackingField: 3793d5da-3524-40da-8288-d1dfc1fdf851
+    <Title>k__BackingField: LookCourierAtLake3
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 3384.8, y: 506.40002}
+    <SpeakerNodeID>k__BackingField: adf9e852-81bc-4e8b-82bd-3905b60cc0f9
+    <ListenerNodeID>k__BackingField: 01fbdea4-3d72-4093-8c00-ef1cec61fee2
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Fine, but I don't even have a fishing rod.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 4b1d9c03-7998-463b-9a17-69a93678fd28
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: c1e3ac24-764e-488c-9751-a68410b923de
+    <Title>k__BackingField: LookCourierAtLake6
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 4583.2, y: 506.40002}
+    <SpeakerNodeID>k__BackingField: 2e19b697-b854-449f-8685-d8b6f0371698
+    <ListenerNodeID>k__BackingField: 2badbe3d-2b2f-409f-a35e-aa04a3a209ce
+    <ActionNodeID>k__BackingField: 8821c872-a168-4928-93f5-948e6a6ba580
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Well, let's see who catches the most
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 1455825b-0b80-42b3-9029-2fcd2276e925
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 1455825b-0b80-42b3-9029-2fcd2276e925
+    <Title>k__BackingField: LookCourierAtLakeEnd
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 5064.8, y: 506.40002}
+    <SpeakerNodeID>k__BackingField: 
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 913c32f8-5021-4dc4-90a1-5c3d37803d70
+    <Title>k__BackingField: LookCourierAtLake2
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 2485.6, y: 506.40002}
+    <SpeakerNodeID>k__BackingField: 0182d2e2-5f1d-486a-aea0-29c62e968491
+    <ListenerNodeID>k__BackingField: 9224967e-b925-4bc7-a84c-9431d34001b5
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Maybe I saw something.
+    - <Text>k__BackingField: But first, why don't you keep me company, catch a couple
+        fish, and then we'll talk?
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Gut
+      <ConnectedNodeID>k__BackingField: 3793d5da-3524-40da-8288-d1dfc1fdf851
+    - <Text>k__BackingField: "Ich habe keine Zeit f\xFCr so etwas"
+      <ConnectedNodeID>k__BackingField: 29661e55-c7a4-4689-b8aa-c0bc0b706200
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 4beb818f-a6f7-4f22-bc60-426d9db49532
+    <Title>k__BackingField: LookCourierAtLake1
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 1582.4, y: 506.40002}
+    <SpeakerNodeID>k__BackingField: 523435c4-d16f-46cb-90b3-0ccbe3efa998
+    <ListenerNodeID>k__BackingField: 25a44632-54c4-442b-bd73-3af23fe05aa9
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Hey, have you noticed anything strange around the lake?
+        There's a mail carriage that went missing recently.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 913c32f8-5021-4dc4-90a1-5c3d37803d70
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 29661e55-c7a4-4689-b8aa-c0bc0b706200
+    <Title>k__BackingField: LookCourierAtLake4
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 3384.8, y: 1000}
+    <SpeakerNodeID>k__BackingField: 
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 4b1d9c03-7998-463b-9a17-69a93678fd28
+    <Title>k__BackingField: LookCourierAtLake5
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 3943.2, y: 506.40002}
+    <SpeakerNodeID>k__BackingField: 554a52ce-62a1-40b0-a5e4-d29237b31e85
+    <ListenerNodeID>k__BackingField: 8e03766d-f947-4b71-ae9c-3418bcb39dba
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: It's not a problem, you can have my spare rod.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Also, los geht's
+      <ConnectedNodeID>k__BackingField: c1e3ac24-764e-488c-9751-a68410b923de
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 223bc7cf-dd68-4fb3-890e-9edadabbc4bd
+    <Title>k__BackingField: TalkAfterFishing1
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 1637.6, y: 1468}
+    <SpeakerNodeID>k__BackingField: bc9f40eb-c5ec-442d-95c7-a0090b705e09
+    <ListenerNodeID>k__BackingField: 2b6f38bb-d1c0-4015-bde7-86e32fdcaee5
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: I've done my part, now tell me what you saw.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 35c462a1-0f1c-4338-8ea4-0cdf6caf83ed
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: fb0640b0-db79-4a45-b98d-c5288d180eab
+    <Title>k__BackingField: TalkAfterFishing3
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 3119.2, y: 1468}
+    <SpeakerNodeID>k__BackingField: dc7aa817-a983-475b-ab49-bcfff18b5653
+    <ListenerNodeID>k__BackingField: 39aae6a9-49a9-4247-b7f5-dde08a9fff93
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Okay, can you get me to that carriage?
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 4e537624-f123-4b48-88e3-4d43b46ba60c
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 35c462a1-0f1c-4338-8ea4-0cdf6caf83ed
+    <Title>k__BackingField: TalkAfterFishing2
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 2220, y: 1468}
+    <SpeakerNodeID>k__BackingField: 4fde1fc6-5c59-46df-9585-9f1d020be5fa
+    <ListenerNodeID>k__BackingField: 6b9104c9-2d8b-41c8-9114-ff8d24fab769
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Well, just yesterday when I was walking to my usual
+        fishing spot when I saw some masked people coming out of the woods.
+    - <Text>k__BackingField: I obviously went to check it out to see what was going
+        on.
+    - <Text>k__BackingField: There in the woods I found an abandoned mail carriage,
+        but there was no one around.
+    - <Text>k__BackingField: I was just about to report this find to the sheriff
+        today.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "K\xF6nnen Sie mir den Ort zeigen?"
+      <ConnectedNodeID>k__BackingField: fb0640b0-db79-4a45-b98d-c5288d180eab
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 4e537624-f123-4b48-88e3-4d43b46ba60c
+    <Title>k__BackingField: TalkAfterFishing4
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 3857.6, y: 1468}
+    <SpeakerNodeID>k__BackingField: 966a695f-5cef-4611-81e0-8c33d4843d2c
+    <ListenerNodeID>k__BackingField: 4431e52c-dcf2-49fd-9042-df0ba07bbf20
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Sure, follow me.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "F\xFChren Sie den Weg"
+      <ConnectedNodeID>k__BackingField: 1d7b3895-ba5c-4e03-8380-8a9c0049ce0f
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 1d7b3895-ba5c-4e03-8380-8a9c0049ce0f
+    <Title>k__BackingField: TalkAfterFishing5
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 4445.6, y: 1468}
+    <SpeakerNodeID>k__BackingField: c089898c-c962-40af-8b86-4dd28b6edde8
+    <ListenerNodeID>k__BackingField: f1eeff20-0310-4a3c-85e1-94169f628925
+    <ActionNodeID>k__BackingField: 5f2f4151-27a1-4dde-8726-e6164eb69059
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 2dfaa433-d453-4174-8fb1-aa9dbc560371
+    <Title>k__BackingField: Meet1
+    <GroupID>k__BackingField: 60f91c1e-3652-4a57-b258-abc84602f7ce
+    <Position>k__BackingField: {x: 1526.4, y: 2258.4}
+    <SpeakerNodeID>k__BackingField: 8bc32e7e-855b-48aa-92be-89adbfd8df5e
+    <ListenerNodeID>k__BackingField: b05da942-81b9-4bec-ad45-f01718ab796b
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Hey, I'm new in town.
+    - <Text>k__BackingField: You're a local fisherman, I take it?
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: c966984b-5d0f-44cd-a399-30436959247c
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: c966984b-5d0f-44cd-a399-30436959247c
+    <Title>k__BackingField: Meet2
+    <GroupID>k__BackingField: 60f91c1e-3652-4a57-b258-abc84602f7ce
+    <Position>k__BackingField: {x: 2220, y: 2271.2}
+    <SpeakerNodeID>k__BackingField: f9e174a8-8880-46d2-a225-8fccdd8c874e
+    <ListenerNodeID>k__BackingField: 334fe91b-a0da-436d-9ce1-609b754af5fc
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Yeah, if you ever need fishing rods or just company,
+        you can come to me.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Es ist mir eine Freude, Sie kennenzulernen
+      <ConnectedNodeID>k__BackingField: 8d24d348-88e1-41c2-bbb4-52179e0c3df5
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 8d24d348-88e1-41c2-bbb4-52179e0c3df5
+    <Title>k__BackingField: Meet3
+    <GroupID>k__BackingField: 60f91c1e-3652-4a57-b258-abc84602f7ce
+    <Position>k__BackingField: {x: 3046.4, y: 2271.2}
+    <SpeakerNodeID>k__BackingField: 75f95029-ab37-4a49-b8cf-2b59d3f9009f
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 08e4a9fc-c56a-4414-8507-ce1f7c95684c
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  <PersonNodes>k__BackingField:
+  - <ID>k__BackingField: e41d2b08-a5bc-4a6c-b536-246d740fb594
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: -25.6, y: 493.60004}
+    <BlackboardFieldID>k__BackingField: 105a45f3-8bb7-4d38-8d4f-44bcb732e63b
+  - <ID>k__BackingField: 8e9c8656-07bd-4163-954f-8e3c289abdc6
+    <Title>k__BackingField: Fisherman
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: -25.6, y: 404.80002}
+    <BlackboardFieldID>k__BackingField: e361dde0-446a-4807-b500-e67199beb748
+  - <ID>k__BackingField: 523435c4-d16f-46cb-90b3-0ccbe3efa998
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 1184, y: 817.60004}
+    <BlackboardFieldID>k__BackingField: 105a45f3-8bb7-4d38-8d4f-44bcb732e63b
+  - <ID>k__BackingField: 25a44632-54c4-442b-bd73-3af23fe05aa9
+    <Title>k__BackingField: Fisherman
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 1184, y: 902.4}
+    <BlackboardFieldID>k__BackingField: e361dde0-446a-4807-b500-e67199beb748
+  - <ID>k__BackingField: 9224967e-b925-4bc7-a84c-9431d34001b5
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 2154.4, y: 979.2}
+    <BlackboardFieldID>k__BackingField: 105a45f3-8bb7-4d38-8d4f-44bcb732e63b
+  - <ID>k__BackingField: 0182d2e2-5f1d-486a-aea0-29c62e968491
+    <Title>k__BackingField: Fisherman
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 2154.4, y: 894.4}
+    <BlackboardFieldID>k__BackingField: e361dde0-446a-4807-b500-e67199beb748
+  - <ID>k__BackingField: adf9e852-81bc-4e8b-82bd-3905b60cc0f9
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 2913.6, y: 961.60004}
+    <BlackboardFieldID>k__BackingField: 105a45f3-8bb7-4d38-8d4f-44bcb732e63b
+  - <ID>k__BackingField: 01fbdea4-3d72-4093-8c00-ef1cec61fee2
+    <Title>k__BackingField: Fisherman
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 2913.6, y: 1038.3999}
+    <BlackboardFieldID>k__BackingField: e361dde0-446a-4807-b500-e67199beb748
+  - <ID>k__BackingField: 554a52ce-62a1-40b0-a5e4-d29237b31e85
+    <Title>k__BackingField: Fisherman
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 3670.4, y: 884.8}
+    <BlackboardFieldID>k__BackingField: e361dde0-446a-4807-b500-e67199beb748
+  - <ID>k__BackingField: 8e03766d-f947-4b71-ae9c-3418bcb39dba
+    <Title>k__BackingField: Fisherman
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 3670.4, y: 961.60004}
+    <BlackboardFieldID>k__BackingField: e361dde0-446a-4807-b500-e67199beb748
+  - <ID>k__BackingField: 2e19b697-b854-449f-8685-d8b6f0371698
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 4207.2, y: 868.8}
+    <BlackboardFieldID>k__BackingField: 105a45f3-8bb7-4d38-8d4f-44bcb732e63b
+  - <ID>k__BackingField: 2badbe3d-2b2f-409f-a35e-aa04a3a209ce
+    <Title>k__BackingField: Fisherman
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 4207.2, y: 945.60004}
+    <BlackboardFieldID>k__BackingField: e361dde0-446a-4807-b500-e67199beb748
+  - <ID>k__BackingField: bc9f40eb-c5ec-442d-95c7-a0090b705e09
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 1231.2, y: 1753.6}
+    <BlackboardFieldID>k__BackingField: 105a45f3-8bb7-4d38-8d4f-44bcb732e63b
+  - <ID>k__BackingField: 2b6f38bb-d1c0-4015-bde7-86e32fdcaee5
+    <Title>k__BackingField: Fisherman
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 1231.2, y: 1844}
+    <BlackboardFieldID>k__BackingField: e361dde0-446a-4807-b500-e67199beb748
+  - <ID>k__BackingField: 6b9104c9-2d8b-41c8-9114-ff8d24fab769
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 1872.8, y: 1975.2}
+    <BlackboardFieldID>k__BackingField: 105a45f3-8bb7-4d38-8d4f-44bcb732e63b
+  - <ID>k__BackingField: 4fde1fc6-5c59-46df-9585-9f1d020be5fa
+    <Title>k__BackingField: Fisherman
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 1872.8, y: 1898.3999}
+    <BlackboardFieldID>k__BackingField: e361dde0-446a-4807-b500-e67199beb748
+  - <ID>k__BackingField: dc7aa817-a983-475b-ab49-bcfff18b5653
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 2900, y: 1860}
+    <BlackboardFieldID>k__BackingField: 105a45f3-8bb7-4d38-8d4f-44bcb732e63b
+  - <ID>k__BackingField: 39aae6a9-49a9-4247-b7f5-dde08a9fff93
+    <Title>k__BackingField: Fisherman
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 2900, y: 1936.7999}
+    <BlackboardFieldID>k__BackingField: e361dde0-446a-4807-b500-e67199beb748
+  - <ID>k__BackingField: 4431e52c-dcf2-49fd-9042-df0ba07bbf20
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 3500, y: 1734.3999}
+    <BlackboardFieldID>k__BackingField: 105a45f3-8bb7-4d38-8d4f-44bcb732e63b
+  - <ID>k__BackingField: 966a695f-5cef-4611-81e0-8c33d4843d2c
+    <Title>k__BackingField: Fisherman
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 3500, y: 1657.6}
+    <BlackboardFieldID>k__BackingField: e361dde0-446a-4807-b500-e67199beb748
+  - <ID>k__BackingField: c089898c-c962-40af-8b86-4dd28b6edde8
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 4174.4, y: 1708.7999}
+    <BlackboardFieldID>k__BackingField: 105a45f3-8bb7-4d38-8d4f-44bcb732e63b
+  - <ID>k__BackingField: f1eeff20-0310-4a3c-85e1-94169f628925
+    <Title>k__BackingField: Fisherman
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 4174.4, y: 1792}
+    <BlackboardFieldID>k__BackingField: e361dde0-446a-4807-b500-e67199beb748
+  - <ID>k__BackingField: 8bc32e7e-855b-48aa-92be-89adbfd8df5e
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 60f91c1e-3652-4a57-b258-abc84602f7ce
+    <Position>k__BackingField: {x: 1134.4, y: 2481.5999}
+    <BlackboardFieldID>k__BackingField: 105a45f3-8bb7-4d38-8d4f-44bcb732e63b
+  - <ID>k__BackingField: b05da942-81b9-4bec-ad45-f01718ab796b
+    <Title>k__BackingField: Fisherman
+    <GroupID>k__BackingField: 60f91c1e-3652-4a57-b258-abc84602f7ce
+    <Position>k__BackingField: {x: 1134.4, y: 2558.4}
+    <BlackboardFieldID>k__BackingField: e361dde0-446a-4807-b500-e67199beb748
+  - <ID>k__BackingField: 334fe91b-a0da-436d-9ce1-609b754af5fc
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 60f91c1e-3652-4a57-b258-abc84602f7ce
+    <Position>k__BackingField: {x: 1872.8, y: 2635.2}
+    <BlackboardFieldID>k__BackingField: 105a45f3-8bb7-4d38-8d4f-44bcb732e63b
+  - <ID>k__BackingField: f9e174a8-8880-46d2-a225-8fccdd8c874e
+    <Title>k__BackingField: Fisherman
+    <GroupID>k__BackingField: 60f91c1e-3652-4a57-b258-abc84602f7ce
+    <Position>k__BackingField: {x: 1872.8, y: 2547.2}
+    <BlackboardFieldID>k__BackingField: e361dde0-446a-4807-b500-e67199beb748
+  - <ID>k__BackingField: 75f95029-ab37-4a49-b8cf-2b59d3f9009f
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 60f91c1e-3652-4a57-b258-abc84602f7ce
+    <Position>k__BackingField: {x: 2778.4, y: 2596.8}
+    <BlackboardFieldID>k__BackingField: 105a45f3-8bb7-4d38-8d4f-44bcb732e63b
+  <ConditionNodes>k__BackingField:
+  - <ID>k__BackingField: 422c9944-ff4b-48fe-8683-d0def7849e7b
+    <Title>k__BackingField: ConditionName
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 856.8, y: 1468}
+    <Conditions>k__BackingField:
+    - rid: 9032775305473294361
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: 223bc7cf-dd68-4fb3-890e-9edadabbc4bd
+  - <ID>k__BackingField: 0df38522-7395-467b-a093-5c077595bca3
+    <Title>k__BackingField: MeetCondition
+    <GroupID>k__BackingField: 60f91c1e-3652-4a57-b258-abc84602f7ce
+    <Position>k__BackingField: {x: 857.6, y: 2271.2}
+    <Conditions>k__BackingField:
+    - rid: 9032775305473294362
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: 2dfaa433-d453-4174-8fb1-aa9dbc560371
+  - <ID>k__BackingField: d523abdb-17ce-42b0-985b-8bb57b9fba67
+    <Title>k__BackingField: ConditionName
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 848.8, y: 506.40002}
+    <Conditions>k__BackingField:
+    - rid: 9032775305473294363
+    - rid: 9032775305473294364
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: 4beb818f-a6f7-4f22-bc60-426d9db49532
+  <ActionNodes>k__BackingField:
+  - <ID>k__BackingField: 8821c872-a168-4928-93f5-948e6a6ba580
+    <Title>k__BackingField: ActionName
+    <GroupID>k__BackingField: 4d320341-d77b-45b7-bddc-cff430e9f50b
+    <Position>k__BackingField: {x: 3919.2, y: 1038.3999}
+    <Actions>k__BackingField:
+    - rid: 9032775305473294365
+    - rid: 9032775305473294366
+  - <ID>k__BackingField: 08e4a9fc-c56a-4414-8507-ce1f7c95684c
+    <Title>k__BackingField: ActionName
+    <GroupID>k__BackingField: 60f91c1e-3652-4a57-b258-abc84602f7ce
+    <Position>k__BackingField: {x: 2550.4, y: 2677.5999}
+    <Actions>k__BackingField:
+    - rid: 9032775305473294367
+  - <ID>k__BackingField: 5f2f4151-27a1-4dde-8726-e6164eb69059
+    <Title>k__BackingField: ActionName
+    <GroupID>k__BackingField: 0e9c849f-ec88-4056-aa10-568fd0e9b545
+    <Position>k__BackingField: {x: 3548.8, y: 2013.6}
+    <Actions>k__BackingField:
+    - rid: 9032775305473294368
+    - rid: 9032775305473294369
+    - rid: 9032775305473294370
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775305473294361
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: f70c8ea40e20c8241b60854c72e99f65, type: 2}
+    - rid: 9032775305473294362
+      type: {class: UncompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 278cb2b3e86bba1448a11c717b947259, type: 2}
+    - rid: 9032775305473294363
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 861a75a01bdff9d408395ae29a0ac09c, type: 2}
+    - rid: 9032775305473294364
+      type: {class: CompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 278cb2b3e86bba1448a11c717b947259, type: 2}
+    - rid: 9032775305473294365
+      type: {class: SpawnPrefabDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _prefab: {fileID: 7151729214631336596, guid: 06160c8d36ac0de4bbf2f5bc4ed1d736, type: 3}
+        _position: {x: 37.25, y: -105, z: 0}
+    - rid: 9032775305473294366
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 861a75a01bdff9d408395ae29a0ac09c, type: 2}
+    - rid: 9032775305473294367
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 278cb2b3e86bba1448a11c717b947259, type: 2}
+    - rid: 9032775305473294368
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: f70c8ea40e20c8241b60854c72e99f65, type: 2}
+    - rid: 9032775305473294369
+      type: {class: DestroyGameObjectDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _gameObjectIDs:
+        - b9d594d7-a19a-4b4c-9e10-32a3ad5d13f7
+    - rid: 9032775305473294370
+      type: {class: AssignScheduleToNPCDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _schedule: {fileID: 11400000, guid: 9b594331a11b2f24ba423adc8ae9611b, type: 2}
+        _npcId: 5d6ade1e-7294-4264-84af-5a004618402c

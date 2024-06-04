@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: StartLine
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: StartLine
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 2e21c95148c25d2429ba0c2a693325c0, type: 2}
+  <Listener>k__BackingField: {fileID: 11400000, guid: cde0504c914d12341958795f14c19948, type: 2}
+  <Actions>k__BackingField: []
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: "Ist Ihnen etwas Merkw\xFCrdiges aufgefallen?"
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 96bdf384d3f42854387b54ff41310b00, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775305167372502
+    - rid: 9032775305167372503
+  - <Text>k__BackingField: Guten Tag, Herr Pfarrer
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 546e52a98317336488b00ea85d83995f, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775305167372509
+  <Sentences>k__BackingField:
+  - _text: Good afternoon.
+  <IsSelectedByPlayer>k__BackingField: 0
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775305167372502
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: e32116d5ed0527d44b132fc0d5ef9ac3, type: 2}
+    - rid: 9032775305167372503
+      type: {class: CompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: dccc6d9e3ee516646a7f6b63aa9c6fd9, type: 2}
+    - rid: 9032775305167372509
+      type: {class: UncompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: dccc6d9e3ee516646a7f6b63aa9c6fd9, type: 2}

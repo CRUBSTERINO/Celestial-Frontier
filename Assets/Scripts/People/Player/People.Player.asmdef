@@ -1,0 +1,25 @@
+{
+    "name": "People.Player",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2f6c627acec08034d8830a3da1b52834",
+        "GUID:d8cfb6314a4dbdb4f89ac46113ccc927",
+        "GUID:416ba16b789dd4c40be0b5d7594c472a",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:3e0920cc9bcc06f43af0daf9c4c9e256",
+        "GUID:615e71580884c104aa63424ffb7e32db",
+        "GUID:2e0103f50101b73479318c05470ca8f6",
+        "GUID:f1560c7eb7f832142b29c94cdc15a8d4",
+        "GUID:44ac490c4d6489f4ab09bcea5d90b817",
+        "GUID:f75ee24ea3f7551439a278d7783105e5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

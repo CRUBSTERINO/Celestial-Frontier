@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6052b2be1e9039042be479fad28e1eef, type: 3}
+  m_Name: EscapePodMonolog
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: EscapePodMonolog
+  <DialogLines>k__BackingField:
+  - {fileID: 11400000, guid: 4b900f0e4eac26d4384298b7cc879779, type: 2}
+  - {fileID: 11400000, guid: c7a11bdb1c68ce043a65822da77a82d5, type: 2}
+  <StartingDialogLine>k__BackingField: {fileID: 11400000, guid: 4b900f0e4eac26d4384298b7cc879779, type: 2}
+  <Participants>k__BackingField:
+  - {fileID: 11400000, guid: 2b9ba37ce552c224784b64f8b8dc9203, type: 2}

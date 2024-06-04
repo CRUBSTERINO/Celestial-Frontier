@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a770417948000a04db5cb0430b2487ac, type: 3}
+  m_Name: BottleOfPoisonFoundMonologGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: BottleOfPoisonFoundMonolog
+  <BlackboardField>k__BackingField:
+  - <ID>k__BackingField: 861f8cea-c58a-4b5e-9eb9-e961db9593de
+    <PersonID>k__BackingField: 2b1c1d65-8e98-4870-ab50-a68af624297c
+    <FieldText>k__BackingField: Player
+    <TypeText>k__BackingField: string
+  <Groups>k__BackingField: []
+  <DialogNodes>k__BackingField:
+  - <ID>k__BackingField: 50de537a-7065-4df2-83f0-b2ff5bcd7385
+    <Title>k__BackingField: StartingLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 500, y: 398.40002}
+    <SpeakerNodeID>k__BackingField: b2e40d98-290f-402f-b4aa-46b6c9a5ba3f
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Der Inhalt der Flasche sieht aus wie Gift.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Ich habe dieses Emblem irgendwo gesehen
+      <ConnectedNodeID>k__BackingField: 9232fe98-7104-448b-8a58-2c9a85d07245
+    - <Text>k__BackingField: Es gibt ein seltsames Emblem
+      <ConnectedNodeID>k__BackingField: ab511bf4-a931-4041-9d0f-c9968d5240e1
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 1
+  - <ID>k__BackingField: 159637a0-fcc3-446e-a075-714fd27a6655
+    <Title>k__BackingField: Line2
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1836, y: 811.2}
+    <SpeakerNodeID>k__BackingField: aebe2820-e42b-40d8-bb7a-77646295268d
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: aaa2d0f5-75a0-49af-bf90-912b7bba4bf7
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Auf der Flasche befindet sich ein seltsames Emblem,
+        das ich sonst noch nie gesehen habe.
+    - <Text>k__BackingField: Ich muss herausfinden, woher diese Flasche stammt.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 9e6d561b-60a3-4f34-aba2-79e6702404c0
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 23f1abe5-e712-4509-a2aa-7f5fc58c5a1f
+    <Title>k__BackingField: Line1
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1836, y: 10.400002}
+    <SpeakerNodeID>k__BackingField: 9535ce7e-dbb8-4b97-9867-26f300142c70
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: a9ffab5f-7e90-4b3b-9527-cb5ae742dfad
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Auf dieser Flasche befindet sich ein Emblem, das ich
+        irgendwo gesehen habe.
+    - <Text>k__BackingField: Das ist das gleiche Schild, das ich am Eingang der Taverne
+        gesehen habe.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 9e6d561b-60a3-4f34-aba2-79e6702404c0
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 9e6d561b-60a3-4f34-aba2-79e6702404c0
+    <Title>k__BackingField: EndingLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 3071.2, y: 584}
+    <SpeakerNodeID>k__BackingField: 9b89b877-26ba-4313-a584-53ab0d161e33
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 08af33a0-22d7-495e-8528-0fd058f8a94c
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  <PersonNodes>k__BackingField:
+  - <ID>k__BackingField: b2e40d98-290f-402f-b4aa-46b6c9a5ba3f
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 152, y: 554.4}
+    <BlackboardFieldID>k__BackingField: 861f8cea-c58a-4b5e-9eb9-e961db9593de
+  - <ID>k__BackingField: aebe2820-e42b-40d8-bb7a-77646295268d
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1424.8, y: 1075.2}
+    <BlackboardFieldID>k__BackingField: 861f8cea-c58a-4b5e-9eb9-e961db9593de
+  - <ID>k__BackingField: 9b89b877-26ba-4313-a584-53ab0d161e33
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 2512.8, y: 888.8}
+    <BlackboardFieldID>k__BackingField: 861f8cea-c58a-4b5e-9eb9-e961db9593de
+  - <ID>k__BackingField: 9535ce7e-dbb8-4b97-9867-26f300142c70
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1413.6, y: 338.40002}
+    <BlackboardFieldID>k__BackingField: 861f8cea-c58a-4b5e-9eb9-e961db9593de
+  <ConditionNodes>k__BackingField:
+  - <ID>k__BackingField: ab511bf4-a931-4041-9d0f-c9968d5240e1
+    <Title>k__BackingField: NotKnowsTavernkeeper
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1063.2, y: 811.2}
+    <Conditions>k__BackingField:
+    - rid: 9032775305473294386
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: 159637a0-fcc3-446e-a075-714fd27a6655
+  - <ID>k__BackingField: 9232fe98-7104-448b-8a58-2c9a85d07245
+    <Title>k__BackingField: KnowsTavernkeeper
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1063.2, y: 127.2}
+    <Conditions>k__BackingField:
+    - rid: 9032775305473294387
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: 23f1abe5-e712-4509-a2aa-7f5fc58c5a1f
+  <ActionNodes>k__BackingField:
+  - <ID>k__BackingField: a9ffab5f-7e90-4b3b-9527-cb5ae742dfad
+    <Title>k__BackingField: AskTavernkeeperAction
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1071.2, y: 429.6}
+    <Actions>k__BackingField:
+    - rid: 9032775305473294388
+  - <ID>k__BackingField: aaa2d0f5-75a0-49af-bf90-912b7bba4bf7
+    <Title>k__BackingField: FindOriginAction
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1140.8, y: 1181.6}
+    <Actions>k__BackingField:
+    - rid: 9032775305473294389
+  - <ID>k__BackingField: 08af33a0-22d7-495e-8528-0fd058f8a94c
+    <Title>k__BackingField: DestroyPickupableAction
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 2512.8, y: 1022.39996}
+    <Actions>k__BackingField:
+    - rid: 9032775305473294390
+    - rid: 9032775305473294391
+    - rid: 9032775305473294392
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775305473294386
+      type: {class: UncompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 405d7f0896c5af24d86b7000196b370c, type: 2}
+    - rid: 9032775305473294387
+      type: {class: CompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 405d7f0896c5af24d86b7000196b370c, type: 2}
+    - rid: 9032775305473294388
+      type: {class: AssignTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 4cdfe1841b3ac954a959ec70355f597f, type: 2}
+    - rid: 9032775305473294389
+      type: {class: AssignTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 882902768eb94fb4ba78caabc0b5ae67, type: 2}
+    - rid: 9032775305473294390
+      type: {class: DestroyGameObjectDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _gameObjectIDs:
+        - d4adafec-9e5c-4ebb-bed9-96664211c213
+    - rid: 9032775305473294391
+      type: {class: GiveItemDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _item: {fileID: 11400000, guid: 2c3bc85c99bd9df49b344bbacafd1be2, type: 2}
+    - rid: 9032775305473294392
+      type: {class: AssignScheduleToNPCDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _schedule: {fileID: 11400000, guid: 6833aabbe00162f4f840e3d677f4b37e, type: 2}
+        _npcId: 5d6ade1e-7294-4264-84af-5a004618402c

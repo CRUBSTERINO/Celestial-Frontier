@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6052b2be1e9039042be479fad28e1eef, type: 3}
+  m_Name: SpaceshipMonolog
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: SpaceshipMonolog
+  <DialogLines>k__BackingField:
+  - {fileID: 11400000, guid: 81d1eed397754c74a95b8e56de17412e, type: 2}
+  - {fileID: 11400000, guid: a9cd27074d24c834d87bdaef669e4a77, type: 2}
+  - {fileID: 11400000, guid: 61fee470a370b14499f2cf5ffe93903e, type: 2}
+  - {fileID: 11400000, guid: 4182233f6a2611c459dbedf73aec2859, type: 2}
+  <StartingDialogLine>k__BackingField: {fileID: 11400000, guid: 81d1eed397754c74a95b8e56de17412e, type: 2}
+  <Participants>k__BackingField:
+  - {fileID: 11400000, guid: d9402680a86863f40afe674b0ff90259, type: 2}

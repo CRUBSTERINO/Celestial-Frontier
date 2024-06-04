@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: StartLine
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: StartLine
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 35c3d78a9f5d91640acb5195bd79783c, type: 2}
+  <Listener>k__BackingField: {fileID: 11400000, guid: 30ec8d029ca6c0a429e015fe1b22a155, type: 2}
+  <Actions>k__BackingField: []
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: "Ich bin zuf\xE4llig hier gelandet"
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 0f3d026acc6c0dd43b9a25387f413372, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775400103608361
+    - rid: 9032775400103608362
+  - <Text>k__BackingField: Ich habe Ihr Paket
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 8d94086354bd0df4e9676628145cb1bf, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775400103608363
+    - rid: 9032775400103608364
+  - <Text>k__BackingField: "Sie sagten, Sie haben etwas, bei dem Sie helfen k\xF6nnen."
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: e59ff226fe7e78e4da9666ab49c7bfca, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775400103608365
+  - <Text>k__BackingField: Generator funktioniert wieder
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: a38ab79a03bbb0440bf00debc3d2bdeb, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775400103608366
+  - <Text>k__BackingField: Ich habe die richtigen Teile gefunden
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 2c37ec442a5dada4c8de6ea2671e0e11, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775400103608367
+  - <Text>k__BackingField: '*verlassen*'
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: dc36226ed3c0ea348b1525148c93bb87, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: Hey, how you doing?
+  <IsSelectedByPlayer>k__BackingField: 0
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775400103608361
+      type: {class: UncompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: d8ddefaaf384c804ebf8cf29e4d89fc0, type: 2}
+    - rid: 9032775400103608362
+      type: {class: InactiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: d8ddefaaf384c804ebf8cf29e4d89fc0, type: 2}
+    - rid: 9032775400103608363
+      type: {class: ItemPresenceCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _itemConfig: {fileID: 11400000, guid: 5b81a6fbb0dc0e640af68862aad75066, type: 2}
+    - rid: 9032775400103608364
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 05a854b213d53a14790ffac7b6062700, type: 2}
+    - rid: 9032775400103608365
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: da8e313fa37d31847afa9b1fc5b5d84a, type: 2}
+    - rid: 9032775400103608366
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 78daec29ca7d60148b88fb4435a36998, type: 2}
+    - rid: 9032775400103608367
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: c0cf436b40fc08345a0dc51c5708193e, type: 2}

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: EndingLine
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: EndingLine
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 18faf33fcd6cc5648b98aa4d1c10ae9f, type: 2}
+  <Listener>k__BackingField: {fileID: 0}
+  <Actions>k__BackingField:
+  - rid: 9032775305473294382
+  - rid: 9032775305473294383
+  - rid: 9032775305473294384
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: New Choice
+    <NextDialog>k__BackingField: {fileID: 0}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField: []
+  <IsSelectedByPlayer>k__BackingField: 0
+  <EndsDialog>k__BackingField: 1
+  <IsStarting>k__BackingField: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775305473294382
+      type: {class: DestroyGameObjectDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _gameObjectIDs:
+        - d4adafec-9e5c-4ebb-bed9-96664211c213
+    - rid: 9032775305473294383
+      type: {class: GiveItemDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _item: {fileID: 11400000, guid: 2c3bc85c99bd9df49b344bbacafd1be2, type: 2}
+    - rid: 9032775305473294384
+      type: {class: AssignScheduleToNPCDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _schedule: {fileID: 11400000, guid: 6833aabbe00162f4f840e3d677f4b37e, type: 2}
+        _npcId: 5d6ade1e-7294-4264-84af-5a004618402c

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6052b2be1e9039042be479fad28e1eef, type: 3}
+  m_Name: BottleOfPoisonFoundMonolog
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: BottleOfPoisonFoundMonolog
+  <DialogLines>k__BackingField:
+  - {fileID: 11400000, guid: 051886f81cdfc334995b04f3060a6054, type: 2}
+  - {fileID: 11400000, guid: 4b173501a30c0f84d90fae09f88f4b66, type: 2}
+  - {fileID: 11400000, guid: 1f4ba0c73f0c9134b8fcc3ee6167aa4a, type: 2}
+  - {fileID: 11400000, guid: 8c9e08f93e8135149a47e30ac3c37829, type: 2}
+  <StartingDialogLine>k__BackingField: {fileID: 11400000, guid: 051886f81cdfc334995b04f3060a6054, type: 2}
+  <Participants>k__BackingField:
+  - {fileID: 11400000, guid: 18faf33fcd6cc5648b98aa4d1c10ae9f, type: 2}

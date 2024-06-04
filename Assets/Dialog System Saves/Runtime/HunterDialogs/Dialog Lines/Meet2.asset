@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: Meet2
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Meet2
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 6f1afdc52be42b149b520a6b0dc4fa63, type: 2}
+  <Listener>k__BackingField: {fileID: 11400000, guid: a8d21a87927a1104396d6d7c9ade4535, type: 2}
+  <Actions>k__BackingField: []
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: "W\xFCnsche Ihnen einen sch\xF6nen Tag"
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 930ba7abdf4b2ed40a83730dcc632204, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: 'Exactly, but there''s not much to hunt here, though. '
+  - _text: I prefer to keep an eye on the neighborhood and order.
+  <IsSelectedByPlayer>k__BackingField: 0
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 0
+  references:
+    version: 2
+    RefIds: []

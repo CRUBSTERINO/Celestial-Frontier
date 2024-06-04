@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6052b2be1e9039042be479fad28e1eef, type: 3}
+  m_Name: FarmerDialogs
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: FarmerDialogs
+  <DialogLines>k__BackingField:
+  - {fileID: 11400000, guid: 57b22fa4d7c404342a677d2e12b4b4a0, type: 2}
+  - {fileID: 11400000, guid: 4b23f42bec539224e9a433527e0242bf, type: 2}
+  - {fileID: 11400000, guid: b4c7ea7fb4aed664d8819a208c20a7e8, type: 2}
+  - {fileID: 11400000, guid: e3c34e812197f414abd80be42785c441, type: 2}
+  - {fileID: 11400000, guid: fd3b1c16887cc594395428cdf9f291b5, type: 2}
+  <StartingDialogLine>k__BackingField: {fileID: 11400000, guid: 57b22fa4d7c404342a677d2e12b4b4a0, type: 2}
+  <Participants>k__BackingField:
+  - {fileID: 11400000, guid: 61035e4880378e44283d61b4911abf63, type: 2}
+  - {fileID: 11400000, guid: 97058ab8031c4dc40bb4b86d158cd36d, type: 2}

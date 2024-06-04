@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: LookCourierAtLake3
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: LookCourierAtLake3
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 561aa20d9a92c304dba09fc28633cbe2, type: 2}
+  <Listener>k__BackingField: {fileID: 11400000, guid: cdc6aafcd48484a42a5f3f9357a3d24f, type: 2}
+  <Actions>k__BackingField: []
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: New Choice
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 2c94b9d036698c944bdb749a05d92cb6, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: Fine, but I don't even have a fishing rod.
+  <IsSelectedByPlayer>k__BackingField: 1
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 0
+  references:
+    version: 2
+    RefIds: []

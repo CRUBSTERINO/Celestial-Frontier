@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: StartLine
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: StartLine
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 88cf8745fba333c429bb05d520e9fb8a, type: 2}
+  <Listener>k__BackingField: {fileID: 0}
+  <Actions>k__BackingField: []
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: '*Sieh dir das Regal an*'
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: aecbcd372c422e048ba0b13862f1b37e, type: 2}
+    <Conditions>k__BackingField: []
+  - <Text>k__BackingField: '*die Aussparung des Kerzenhalters inspizieren*'
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: fd581a791faf3f24fa03ce44871b9e8c, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062627984
+  - <Text>k__BackingField: "*den Kerzenst\xE4nder wieder an seinen Platz stellen*"
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: fdfc3e2a1a879664db2b2d84a17d566d, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062627985
+  - <Text>k__BackingField: "*hinter das B\xFCcherregal gehen*"
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: d5f19a33a77ef9e4dba6a25eb7d7c2e3, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062627986
+  - <Text>k__BackingField: '*verlassen*'
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 42c18867460f9244d87eb78c024e35b4, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: "B\xFCcherregal im Keller."
+  <IsSelectedByPlayer>k__BackingField: 0
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775280062627984
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 6cc8e81587bb80a4788bfaee4bd2d8f1, type: 2}
+    - rid: 9032775280062627985
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 9d59bd931065ca149a32ced7c95c3519, type: 2}
+    - rid: 9032775280062627986
+      type: {class: CompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 9d59bd931065ca149a32ced7c95c3519, type: 2}

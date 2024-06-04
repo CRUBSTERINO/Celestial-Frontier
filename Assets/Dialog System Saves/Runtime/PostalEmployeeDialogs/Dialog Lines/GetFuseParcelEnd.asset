@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: GetFuseParcelEnd
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: GetFuseParcelEnd
+  <Speaker>k__BackingField: {fileID: 11400000, guid: d12e9e3730d3ce741ade2cb52007d7b2, type: 2}
+  <Listener>k__BackingField: {fileID: 0}
+  <Actions>k__BackingField:
+  - rid: 9032775391471730697
+  - rid: 9032775391471730698
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: New Choice
+    <NextDialog>k__BackingField: {fileID: 0}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField: []
+  <IsSelectedByPlayer>k__BackingField: 0
+  <EndsDialog>k__BackingField: 1
+  <IsStarting>k__BackingField: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775391471730697
+      type: {class: GiveItemDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _item: {fileID: 11400000, guid: 5b81a6fbb0dc0e640af68862aad75066, type: 2}
+    - rid: 9032775391471730698
+      type: {class: AssignTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 05a854b213d53a14790ffac7b6062700, type: 2}

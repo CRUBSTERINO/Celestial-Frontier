@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: StartLine
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: StartLine
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 2dba4c1c5eb4de849bdccc111916f773, type: 2}
+  <Listener>k__BackingField: {fileID: 0}
+  <Actions>k__BackingField: []
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: '*freischalten*'
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 621432419da52bc46bc96fc8e86d86cf, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062627916
+  - <Text>k__BackingField: '*das Versteck der Banditen verlassen*'
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 71cdaa72b2484b34b99557ea012ace4a, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062627922
+    - rid: 9032775280062627923
+  - <Text>k__BackingField: '*verlassen*'
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 84e11b7bd76fecb4db1f985ae5d76921, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: "Eine in die H\xF6hlenwand gemei\xDFelte Steint\xFCr."
+  <IsSelectedByPlayer>k__BackingField: 0
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775280062627916
+      type: {class: UncompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 24e0bf8d4f355f6438c5c5b3924a80ee, type: 2}
+    - rid: 9032775280062627922
+      type: {class: InactiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 7bb034dd0626c844aa9409269558cdb9, type: 2}
+    - rid: 9032775280062627923
+      type: {class: CompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 24e0bf8d4f355f6438c5c5b3924a80ee, type: 2}

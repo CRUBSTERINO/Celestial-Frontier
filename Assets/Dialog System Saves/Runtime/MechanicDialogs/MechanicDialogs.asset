@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6052b2be1e9039042be479fad28e1eef, type: 3}
+  m_Name: MechanicDialogs
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: MechanicDialogs
+  <DialogLines>k__BackingField:
+  - {fileID: 11400000, guid: 0f3d026acc6c0dd43b9a25387f413372, type: 2}
+  - {fileID: 11400000, guid: a4d6bb51f58a7fb40b5ce3643409bd4c, type: 2}
+  - {fileID: 11400000, guid: 909e51484a335814684a79dc55c808d8, type: 2}
+  - {fileID: 11400000, guid: e80b6c809e8cda045be4aa91d1885a75, type: 2}
+  - {fileID: 11400000, guid: e94c661df649a644e903ec2b78571a40, type: 2}
+  - {fileID: 11400000, guid: dc36226ed3c0ea348b1525148c93bb87, type: 2}
+  - {fileID: 11400000, guid: 8d94086354bd0df4e9676628145cb1bf, type: 2}
+  - {fileID: 11400000, guid: fac7848003a63414e96a5b03ce7b6485, type: 2}
+  - {fileID: 11400000, guid: e7650ec5b7e58954e8642728aa04f349, type: 2}
+  - {fileID: 11400000, guid: 068f288b0f7f81b4994df0fa58b88d42, type: 2}
+  - {fileID: 11400000, guid: 0b488dc6cc35d9e44831c2a8e772231e, type: 2}
+  - {fileID: 11400000, guid: e59ff226fe7e78e4da9666ab49c7bfca, type: 2}
+  - {fileID: 11400000, guid: c016047f102947449ad77518cc12faa0, type: 2}
+  - {fileID: 11400000, guid: 38a68355822babb4abd480cbf6ad509f, type: 2}
+  - {fileID: 11400000, guid: a38ab79a03bbb0440bf00debc3d2bdeb, type: 2}
+  - {fileID: 11400000, guid: 4d396304a2432314fad2b9b48cfa5c79, type: 2}
+  - {fileID: 11400000, guid: d4b562e3e7fa6c14f872eece4b77a5fa, type: 2}
+  - {fileID: 11400000, guid: aa178ab7b58f8d044a7d275fd22d278e, type: 2}
+  - {fileID: 11400000, guid: 2312a4458a5578a42a5312a778f5d1dd, type: 2}
+  - {fileID: 11400000, guid: b3e1722cd607b67419295a04227b54ae, type: 2}
+  - {fileID: 11400000, guid: 4b62d7b9ffadf7945aa2df1d5b9171e3, type: 2}
+  - {fileID: 11400000, guid: 2c37ec442a5dada4c8de6ea2671e0e11, type: 2}
+  - {fileID: 11400000, guid: 9506cc1d37447034a9cbe8284c2e1a70, type: 2}
+  - {fileID: 11400000, guid: 53431e0dd619eab4286722cb25372834, type: 2}
+  - {fileID: 11400000, guid: c223938f1a79bc74e807750382d60f0a, type: 2}
+  <StartingDialogLine>k__BackingField: {fileID: 11400000, guid: 0b488dc6cc35d9e44831c2a8e772231e, type: 2}
+  <Participants>k__BackingField:
+  - {fileID: 11400000, guid: 30ec8d029ca6c0a429e015fe1b22a155, type: 2}
+  - {fileID: 11400000, guid: 35c3d78a9f5d91640acb5195bd79783c, type: 2}

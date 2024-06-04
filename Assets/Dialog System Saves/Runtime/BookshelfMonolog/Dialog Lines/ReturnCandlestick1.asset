@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: ReturnCandlestick1
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: ReturnCandlestick1
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 88cf8745fba333c429bb05d520e9fb8a, type: 2}
+  <Listener>k__BackingField: {fileID: 0}
+  <Actions>k__BackingField:
+  - rid: 9032775280062627976
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: "*hinter das B\xFCcherregal gehen*"
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: d5f19a33a77ef9e4dba6a25eb7d7c2e3, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: "Als er den Kerzenst\xE4nder wieder an seinen Platz stellte, klickte etwas
+      im B\xFCcherregal."
+  - _text: "Offenbar kann das B\xFCcherregal jetzt entfernt werden."
+  <IsSelectedByPlayer>k__BackingField: 1
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775280062627976
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 9d59bd931065ca149a32ced7c95c3519, type: 2}

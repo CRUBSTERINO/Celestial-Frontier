@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6052b2be1e9039042be479fad28e1eef, type: 3}
+  m_Name: BookshelfMonolog
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: BookshelfMonolog
+  <DialogLines>k__BackingField:
+  - {fileID: 11400000, guid: 6473078402e903b4981869187e0a4ad2, type: 2}
+  - {fileID: 11400000, guid: 35f3035c2076088418343e5a226c3732, type: 2}
+  - {fileID: 11400000, guid: aecbcd372c422e048ba0b13862f1b37e, type: 2}
+  - {fileID: 11400000, guid: fd581a791faf3f24fa03ce44871b9e8c, type: 2}
+  - {fileID: 11400000, guid: fdfc3e2a1a879664db2b2d84a17d566d, type: 2}
+  - {fileID: 11400000, guid: c65517fff8b332f44871ac01d67e59fc, type: 2}
+  - {fileID: 11400000, guid: d5f19a33a77ef9e4dba6a25eb7d7c2e3, type: 2}
+  - {fileID: 11400000, guid: 9c1ff856cc7e38144ad62207779dd7e9, type: 2}
+  - {fileID: 11400000, guid: 42c18867460f9244d87eb78c024e35b4, type: 2}
+  <StartingDialogLine>k__BackingField: {fileID: 11400000, guid: c65517fff8b332f44871ac01d67e59fc, type: 2}
+  <Participants>k__BackingField:
+  - {fileID: 11400000, guid: 88cf8745fba333c429bb05d520e9fb8a, type: 2}

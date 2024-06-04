@@ -1,0 +1,19 @@
+{
+    "name": "OpenAIService",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:3248779d86bd31747b5d2214f30b01ac",
+        "GUID:7958db66189566541a6363568aee1575",
+        "GUID:f75ee24ea3f7551439a278d7783105e5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

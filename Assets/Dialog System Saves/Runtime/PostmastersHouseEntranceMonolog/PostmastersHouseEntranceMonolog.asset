@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6052b2be1e9039042be479fad28e1eef, type: 3}
+  m_Name: PostmastersHouseEntranceMonolog
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: PostmastersHouseEntranceMonolog
+  <DialogLines>k__BackingField:
+  - {fileID: 11400000, guid: b9261e40e8a9fe948b85d012d75b1ecb, type: 2}
+  - {fileID: 11400000, guid: cd5b3c60c7ebfe54bb97e00bf60cc0ae, type: 2}
+  <StartingDialogLine>k__BackingField: {fileID: 11400000, guid: b9261e40e8a9fe948b85d012d75b1ecb, type: 2}
+  <Participants>k__BackingField:
+  - {fileID: 11400000, guid: 370a4582814d7a9468877b418063cbe1, type: 2}

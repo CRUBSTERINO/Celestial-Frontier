@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a8cd84592ac16b4ba4cb586c8f34bb0, type: 3}
+  m_Name: Hunter's Schedule
+  m_EditorClassIdentifier: 
+  _activities:
+  - _location: {x: 3.5, y: 4.5, z: 0}
+    _interval:
+      _fromHours: 0
+      _fromMinutes: 0
+      _toHours: 7
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: ff5525981018dea489aa23200e65194f, type: 2}
+  - _location: {x: -1.5, y: 5.5, z: 0}
+    _interval:
+      _fromHours: 9
+      _fromMinutes: 30
+      _toHours: 10
+      _toMinutes: 29
+    _scene: {fileID: 11400000, guid: ff5525981018dea489aa23200e65194f, type: 2}
+  - _location: {x: 35.25, y: -114.75, z: 0}
+    _interval:
+      _fromHours: 10
+      _fromMinutes: 30
+      _toHours: 12
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: e4ea689ac24139849862ce81fcd81a2c, type: 2}
+  - _location: {x: -7, y: 7.5, z: 0}
+    _interval:
+      _fromHours: 13
+      _fromMinutes: 30
+      _toHours: 15
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: 1ec2b240193a02445b1da20d8259cc08, type: 2}
+  - _location: {x: -2, y: 3.25, z: 0}
+    _interval:
+      _fromHours: 16
+      _fromMinutes: 0
+      _toHours: 16
+      _toMinutes: 29
+    _scene: {fileID: 11400000, guid: 1ec2b240193a02445b1da20d8259cc08, type: 2}
+  - _location: {x: 53, y: 36.25, z: 0}
+    _interval:
+      _fromHours: 17
+      _fromMinutes: 30
+      _toHours: 17
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: e4ea689ac24139849862ce81fcd81a2c, type: 2}
+  - _location: {x: -6, y: 0.5, z: 0}
+    _interval:
+      _fromHours: 18
+      _fromMinutes: 0
+      _toHours: 18
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: 9187da3213557ce448b31bf42ddc1c66, type: 2}
+  - _location: {x: -22.5, y: -91.75, z: 0}
+    _interval:
+      _fromHours: 19
+      _fromMinutes: 0
+      _toHours: 19
+      _toMinutes: 29
+    _scene: {fileID: 11400000, guid: e4ea689ac24139849862ce81fcd81a2c, type: 2}
+  - _location: {x: -6, y: 17.5, z: 0}
+    _interval:
+      _fromHours: 19
+      _fromMinutes: 30
+      _toHours: 19
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: ff5525981018dea489aa23200e65194f, type: 2}
+  - _location: {x: 5, y: 3.5, z: 0}
+    _interval:
+      _fromHours: 20
+      _fromMinutes: 0
+      _toHours: 20
+      _toMinutes: 29
+    _scene: {fileID: 11400000, guid: ff5525981018dea489aa23200e65194f, type: 2}
+  - _location: {x: 3.5, y: 4.5, z: 0}
+    _interval:
+      _fromHours: 20
+      _fromMinutes: 30
+      _toHours: 23
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: ff5525981018dea489aa23200e65194f, type: 2}
+  _npcPrefab: {fileID: 4154795946126022528, guid: f14e4ecdcdf80864088fec867cc6461c, type: 3}
+  _shouldBeChecked: 1

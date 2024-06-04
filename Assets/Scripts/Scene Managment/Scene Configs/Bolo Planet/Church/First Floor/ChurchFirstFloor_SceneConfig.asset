@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5df544f009ab06247ac9b0ee51898d38, type: 3}
+  m_Name: ChurchFirstFloor_SceneConfig
+  m_EditorClassIdentifier: 
+  _name: Church First Floor
+  _buildIndex: 7
+  _sceneType: 0
+  _reachableScenes:
+  - {fileID: 11400000, guid: e4ea689ac24139849862ce81fcd81a2c, type: 2}
+  - {fileID: 11400000, guid: a354efc500572394f89285d11b0b85de, type: 2}
+  _ambientAudioClip: {fileID: 8300000, guid: 206e544d28544e64aaf0865f6a004e60, type: 3}

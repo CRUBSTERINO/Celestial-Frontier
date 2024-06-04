@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8b53219db7e0e41b1fd43eccf2a9fc, type: 3}
+  m_Name: BoloPlanet_Starting_EntranceConfig
+  m_EditorClassIdentifier: 
+  _sceneConfig: {fileID: 11400000, guid: e4ea689ac24139849862ce81fcd81a2c, type: 2}
+  _entrancePosition: {x: 98.75, y: 46.25, z: 0}

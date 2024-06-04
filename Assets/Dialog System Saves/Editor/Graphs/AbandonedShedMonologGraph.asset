@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a770417948000a04db5cb0430b2487ac, type: 3}
+  m_Name: AbandonedShedMonologGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: AbandonedShedMonolog
+  <BlackboardField>k__BackingField:
+  - <ID>k__BackingField: 44973c41-7d99-450f-94f9-436a3da15c34
+    <PersonID>k__BackingField: 2b1c1d65-8e98-4870-ab50-a68af624297c
+    <FieldText>k__BackingField: Player
+    <TypeText>k__BackingField: string
+  <Groups>k__BackingField: []
+  <DialogNodes>k__BackingField:
+  - <ID>k__BackingField: d142e20f-a934-4ecc-a6c6-82e1b6feafb9
+    <Title>k__BackingField: LeaveLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 826.4, y: -212.8}
+    <SpeakerNodeID>k__BackingField: 
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 9060c831-0948-4266-9ac3-59014821edcc
+    <Title>k__BackingField: OpenShedLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1571.2, y: 1500.7999}
+    <SpeakerNodeID>k__BackingField: d9df56ed-5451-49c4-a18b-ce84feb4fb46
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: d51445b3-ab30-4074-8fd3-1fb6ce37e62e
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 918d5eb5-9dc6-45cf-a14e-2ae8b01de6a7
+    <Title>k__BackingField: EnterShedLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1726.4, y: 768.8}
+    <SpeakerNodeID>k__BackingField: 3b26d707-e0ca-4dfc-8b17-3a2f7c5c39bb
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: fcf682a3-7f56-4e1e-86d2-d9272a65ed67
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: db724f09-a364-4086-9ab4-380ad3613def
+    <Title>k__BackingField: TryOpen1
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1553.6, y: 175.2}
+    <SpeakerNodeID>k__BackingField: 74d5f0c2-b27e-448d-b6f8-c18eecf1aa09
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 8db40897-8c64-4626-b6ba-8852b319fa3b
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "Die T\xFCr l\xE4sst sich nicht \xF6ffnen. Sie ist mit
+        einem alten Schloss versehen."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: bc1d69a7-1e59-409e-83a1-59003409b163
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: b6801e2c-64d8-4f03-b178-bd9f4b831fe3
+    <Title>k__BackingField: StartLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 296.8, y: 175.2}
+    <SpeakerNodeID>k__BackingField: a6426bd1-d49b-490f-88ff-d7e7bfad40f4
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "Die T\xFCr zum Lagerraum."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "*versuchen, die T\xFCr zu \xF6ffnen*"
+      <ConnectedNodeID>k__BackingField: 10a998a5-42a9-43dd-b6d0-3ee629c496db
+    - <Text>k__BackingField: '*Lagerraum betreten*'
+      <ConnectedNodeID>k__BackingField: a2f3d02e-c901-43e4-b62e-62399bb07565
+    - <Text>k__BackingField: "*Schloss an der T\xFCr \xF6ffnen*"
+      <ConnectedNodeID>k__BackingField: f8a993ed-db34-434a-a978-dfded7bf8c25
+    - <Text>k__BackingField: '*verlassen*'
+      <ConnectedNodeID>k__BackingField: d142e20f-a934-4ecc-a6c6-82e1b6feafb9
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 1
+  - <ID>k__BackingField: bc1d69a7-1e59-409e-83a1-59003409b163
+    <Title>k__BackingField: "TryOpen\u0423\u0442\u0432"
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 2234.4, y: 175.2}
+    <SpeakerNodeID>k__BackingField: 
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  <PersonNodes>k__BackingField:
+  - <ID>k__BackingField: a6426bd1-d49b-490f-88ff-d7e7bfad40f4
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1.6, y: 305.6}
+    <BlackboardFieldID>k__BackingField: 44973c41-7d99-450f-94f9-436a3da15c34
+  - <ID>k__BackingField: 3b26d707-e0ca-4dfc-8b17-3a2f7c5c39bb
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1280, y: 976}
+    <BlackboardFieldID>k__BackingField: 44973c41-7d99-450f-94f9-436a3da15c34
+  - <ID>k__BackingField: d9df56ed-5451-49c4-a18b-ce84feb4fb46
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1116.8, y: 1660}
+    <BlackboardFieldID>k__BackingField: 44973c41-7d99-450f-94f9-436a3da15c34
+  - <ID>k__BackingField: 74d5f0c2-b27e-448d-b6f8-c18eecf1aa09
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1158.4, y: 382.40002}
+    <BlackboardFieldID>k__BackingField: 44973c41-7d99-450f-94f9-436a3da15c34
+  <ConditionNodes>k__BackingField:
+  - <ID>k__BackingField: a2f3d02e-c901-43e4-b62e-62399bb07565
+    <Title>k__BackingField: EnterCondition
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1018.4, y: 768.8}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062628229
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: 918d5eb5-9dc6-45cf-a14e-2ae8b01de6a7
+  - <ID>k__BackingField: f8a993ed-db34-434a-a978-dfded7bf8c25
+    <Title>k__BackingField: OpenCondition
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 855.2, y: 1387.2}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062628230
+    - rid: 9032775280062628231
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: 9060c831-0948-4266-9ac3-59014821edcc
+  - <ID>k__BackingField: 10a998a5-42a9-43dd-b6d0-3ee629c496db
+    <Title>k__BackingField: TryOpenCondition
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 876.8, y: 175.2}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062628232
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: db724f09-a364-4086-9ab4-380ad3613def
+  <ActionNodes>k__BackingField:
+  - <ID>k__BackingField: fcf682a3-7f56-4e1e-86d2-d9272a65ed67
+    <Title>k__BackingField: EnterShedAction
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 876.8, y: 1073.6}
+    <Actions>k__BackingField:
+    - rid: 9032775280062628233
+  - <ID>k__BackingField: d51445b3-ab30-4074-8fd3-1fb6ce37e62e
+    <Title>k__BackingField: OpenShedAction
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 855.2, y: 1766.3999}
+    <Actions>k__BackingField:
+    - rid: 9032775280062628234
+    - rid: 9032775280062628235
+  - <ID>k__BackingField: 8db40897-8c64-4626-b6ba-8852b319fa3b
+    <Title>k__BackingField: TryOpenAction
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 876.8, y: 480}
+    <Actions>k__BackingField:
+    - rid: 9032775280062628236
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775280062628229
+      type: {class: CompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 7b812f0070d823947b298d7928119535, type: 2}
+    - rid: 9032775280062628230
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 7b812f0070d823947b298d7928119535, type: 2}
+    - rid: 9032775280062628231
+      type: {class: ItemPresenceCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _itemConfig: {fileID: 11400000, guid: 858a680108224ea41a1ff9382c95ed80, type: 2}
+    - rid: 9032775280062628232
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 738a4c666eb68dc40ba3910f383f8e1f, type: 2}
+    - rid: 9032775280062628233
+      type: {class: LoadSceneDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _targetSceneEntrance: {fileID: 11400000, guid: 3007b03dfca296c4185414af36d0f0c9, type: 2}
+    - rid: 9032775280062628234
+      type: {class: SeizeItemDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _item: {fileID: 11400000, guid: 858a680108224ea41a1ff9382c95ed80, type: 2}
+    - rid: 9032775280062628235
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 7b812f0070d823947b298d7928119535, type: 2}
+    - rid: 9032775280062628236
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 738a4c666eb68dc40ba3910f383f8e1f, type: 2}

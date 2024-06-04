@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a8cd84592ac16b4ba4cb586c8f34bb0, type: 3}
+  m_Name: Fisherman's Schedule
+  m_EditorClassIdentifier: 
+  _activities:
+  - _location: {x: 0, y: 0, z: 0}
+    _interval:
+      _fromHours: 0
+      _fromMinutes: 0
+      _toHours: 7
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: 34216a31cc17e7d49adfce442f14ea1b, type: 2}
+  - _location: {x: 58, y: -90.5, z: 0}
+    _interval:
+      _fromHours: 8
+      _fromMinutes: 0
+      _toHours: 9
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: e4ea689ac24139849862ce81fcd81a2c, type: 2}
+  - _location: {x: 38.75, y: -102.5, z: 0}
+    _interval:
+      _fromHours: 10
+      _fromMinutes: 0
+      _toHours: 12
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: e4ea689ac24139849862ce81fcd81a2c, type: 2}
+  - _location: {x: 35.5, y: -114.75, z: 0}
+    _interval:
+      _fromHours: 13
+      _fromMinutes: 0
+      _toHours: 14
+      _toMinutes: 29
+    _scene: {fileID: 11400000, guid: e4ea689ac24139849862ce81fcd81a2c, type: 2}
+  - _location: {x: -1, y: 1.5, z: 0}
+    _interval:
+      _fromHours: 14
+      _fromMinutes: 30
+      _toHours: 17
+      _toMinutes: 29
+    _scene: {fileID: 11400000, guid: 9187da3213557ce448b31bf42ddc1c66, type: 2}
+  - _location: {x: 48.25, y: -94.75, z: 0}
+    _interval:
+      _fromHours: 17
+      _fromMinutes: 30
+      _toHours: 19
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: e4ea689ac24139849862ce81fcd81a2c, type: 2}
+  - _location: {x: 0, y: 0, z: 0}
+    _interval:
+      _fromHours: 20
+      _fromMinutes: 0
+      _toHours: 23
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: 34216a31cc17e7d49adfce442f14ea1b, type: 2}
+  _npcPrefab: {fileID: 4154795946126022528, guid: 5c93696758adea84aab4e64b98400bae, type: 3}
+  _shouldBeChecked: 1

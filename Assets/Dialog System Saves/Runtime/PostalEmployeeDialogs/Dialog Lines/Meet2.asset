@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: Meet2
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Meet2
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 9c3a8fb1c24e86b48b56745b7e89024d, type: 2}
+  <Listener>k__BackingField: {fileID: 11400000, guid: d12e9e3730d3ce741ade2cb52007d7b2, type: 2}
+  <Actions>k__BackingField: []
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: "Sch\xF6nen Tag noch"
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 1fc24eb4a4366af42b149297d2546935, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: Oh, it's a pleasure to meet you too!
+  - _text: I work at the local post office. If you order anything, let me know and
+      I'll take care of the delivery.
+  <IsSelectedByPlayer>k__BackingField: 0
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 0
+  references:
+    version: 2
+    RefIds: []

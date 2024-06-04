@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a8cd84592ac16b4ba4cb586c8f34bb0, type: 3}
+  m_Name: Postal Employee's Schedule
+  m_EditorClassIdentifier: 
+  _activities:
+  - _location: {x: 0, y: 0, z: 0}
+    _interval:
+      _fromHours: 0
+      _fromMinutes: 0
+      _toHours: 6
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: 6246aefada6923346bfd12924205d60d, type: 2}
+  - _location: {x: 21, y: 2, z: 0}
+    _interval:
+      _fromHours: 7
+      _fromMinutes: 0
+      _toHours: 7
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: e4ea689ac24139849862ce81fcd81a2c, type: 2}
+  - _location: {x: 0.25, y: 6, z: 0}
+    _interval:
+      _fromHours: 8
+      _fromMinutes: 0
+      _toHours: 17
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: 1ec2b240193a02445b1da20d8259cc08, type: 2}
+  - _location: {x: -23.25, y: 0.5, z: 0}
+    _interval:
+      _fromHours: 18
+      _fromMinutes: 0
+      _toHours: 18
+      _toMinutes: 29
+    _scene: {fileID: 11400000, guid: e4ea689ac24139849862ce81fcd81a2c, type: 2}
+  - _location: {x: -11.75, y: 0.5, z: 0}
+    _interval:
+      _fromHours: 18
+      _fromMinutes: 30
+      _toHours: 21
+      _toMinutes: 29
+    _scene: {fileID: 11400000, guid: 10bf28b0020f3ea43976d4bd7bb172a1, type: 2}
+  - _location: {x: 51.5, y: 15.75, z: 0}
+    _interval:
+      _fromHours: 21
+      _fromMinutes: 30
+      _toHours: 21
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: e4ea689ac24139849862ce81fcd81a2c, type: 2}
+  - _location: {x: 0, y: 0, z: 0}
+    _interval:
+      _fromHours: 22
+      _fromMinutes: 0
+      _toHours: 23
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: 6246aefada6923346bfd12924205d60d, type: 2}
+  _npcPrefab: {fileID: 4154795946126022528, guid: 760991ca9eaf25844a5d9ae2fed68127, type: 3}
+  _shouldBeChecked: 1

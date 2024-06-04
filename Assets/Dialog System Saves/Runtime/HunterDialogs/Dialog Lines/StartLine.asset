@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: StartLine
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: StartLine
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 6f1afdc52be42b149b520a6b0dc4fa63, type: 2}
+  <Listener>k__BackingField: {fileID: 11400000, guid: a8d21a87927a1104396d6d7c9ade4535, type: 2}
+  <Actions>k__BackingField: []
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: "Ich habe geh\xF6rt, dass Sie nach Banditen suchen."
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 508327eadf85ac6468efe91fe1e26a59, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775305167372456
+    - rid: 9032775305167372457
+  - <Text>k__BackingField: Freut mich, Sie kennenzulernen
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 85c911982652b2b4cb126298bdfe6e8c, type: 2}
+    <Conditions>k__BackingField:
+    - rid: 9032775305167372458
+  - <Text>k__BackingField: '*verlassen*'
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: b860c1aaf4cd4b74e9b41a0c9878f383, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: "\u041F\u0440\u0438\u0432\u0435\u0442."
+  <IsSelectedByPlayer>k__BackingField: 0
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775305167372456
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: f707c8b8486e78c48a73da0d5698b473, type: 2}
+    - rid: 9032775305167372457
+      type: {class: CompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 10742d5ac113fcb448e09e9c53668647, type: 2}
+    - rid: 9032775305167372458
+      type: {class: UncompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 10742d5ac113fcb448e09e9c53668647, type: 2}

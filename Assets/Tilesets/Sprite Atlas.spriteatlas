@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 1836976774, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 1983448321, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 708774092, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -61324726, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 277890447, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1054035589, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1434045917, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 1730491741, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -802935434, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1600784863, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -446396687, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -413119663, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1146943340, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1862468808, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 900559775, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1458037479, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1719706502, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 1730199387, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 12892662, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 222134386, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -992706907, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -2013009524, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 768175583, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -961654366, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -996673927, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -683435446, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -95630621, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 362878209, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 732669800, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -4006328, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 1301228523, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 1342927479, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -450762722, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 2051545914, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 925844335, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -862435139, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 915434194, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1746447009, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1319724879, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 1552006728, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1858977360, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1034137918, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 1173393626, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 2027520101, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 253822201, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1417052505, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1564463138, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -975972882, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 1450277636, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 360813568, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 710450666, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 190905980, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1589858624, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 177081890, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -655668682, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 1368054893, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1873538573, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 2014063065, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 476483175, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1950557458, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 461940901, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 880267469, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1829934079, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 410300855, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -939650865, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1938651956, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 543671029, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 1246140954, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -437706818, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 605421246, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 1517818668, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1371610036, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -110606212, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 1953506471, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -734766208, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -202577847, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -965596919, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 1545784255, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 1780680576, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 20458143, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1595551504, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 143700111, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: 1842138374, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -47151959, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  - {fileID: -1688299846, guid: 2325eeb3fcbc8964f92d514c4a636b73, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Happyland Tileset_83
+  - Happyland Tileset_82
+  - Happyland Tileset_81
+  - Happyland Tileset_80
+  - Happyland Tileset_18
+  - Happyland Tileset_19
+  - Happyland Tileset_84
+  - Happyland Tileset_10
+  - Happyland Tileset_11
+  - Happyland Tileset_69
+  - Happyland Tileset_12
+  - Happyland Tileset_68
+  - Happyland Tileset_13
+  - Happyland Tileset_14
+  - Happyland Tileset_38
+  - Happyland Tileset_15
+  - Happyland Tileset_39
+  - Happyland Tileset_65
+  - Happyland Tileset_16
+  - Happyland Tileset_36
+  - Happyland Tileset_64
+  - Happyland Tileset_17
+  - Happyland Tileset_37
+  - Happyland Tileset_67
+  - Happyland Tileset_34
+  - Happyland Tileset_66
+  - Happyland Tileset_35
+  - Happyland Tileset_61
+  - Happyland Tileset_32
+  - Happyland Tileset_60
+  - Happyland Tileset_33
+  - Happyland Tileset_63
+  - Happyland Tileset_30
+  - Happyland Tileset_62
+  - Happyland Tileset_31
+  - Happyland Tileset_21
+  - Happyland Tileset_20
+  - Happyland Tileset_23
+  - Happyland Tileset_22
+  - Happyland Tileset_54
+  - Happyland Tileset_25
+  - Happyland Tileset_55
+  - Happyland Tileset_24
+  - Happyland Tileset_56
+  - Happyland Tileset_27
+  - Happyland Tileset_57
+  - Happyland Tileset_47
+  - Happyland Tileset_26
+  - Happyland Tileset_50
+  - Happyland Tileset_46
+  - Happyland Tileset_29
+  - Happyland Tileset_51
+  - Happyland Tileset_45
+  - Happyland Tileset_28
+  - Happyland Tileset_52
+  - Happyland Tileset_44
+  - Happyland Tileset_53
+  - Happyland Tileset_43
+  - Happyland Tileset_42
+  - Happyland Tileset_78
+  - Happyland Tileset_41
+  - Happyland Tileset_79
+  - Happyland Tileset_40
+  - Happyland Tileset_58
+  - Happyland Tileset_9
+  - Happyland Tileset_59
+  - Happyland Tileset_8
+  - Happyland Tileset_72
+  - Happyland Tileset_73
+  - Happyland Tileset_70
+  - Happyland Tileset_49
+  - Happyland Tileset_71
+  - Happyland Tileset_48
+  - Happyland Tileset_76
+  - Happyland Tileset_77
+  - Happyland Tileset_74
+  - Happyland Tileset_1
+  - Happyland Tileset_75
+  - Happyland Tileset_0
+  - Happyland Tileset_3
+  - Happyland Tileset_2
+  - Happyland Tileset_5
+  - Happyland Tileset_4
+  - Happyland Tileset_7
+  - Happyland Tileset_6
+  m_RenderDataMap: {}
+  m_Tag: Sprite Atlas
+  m_IsVariant: 0

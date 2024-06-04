@@ -1,0 +1,4 @@
+repository "Celestial Frontier@CRUBIK@cloud"
+  path "/"
+    br "/main"
+    co "/main"

@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a770417948000a04db5cb0430b2487ac, type: 3}
+  m_Name: GroatsBagMonologGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: GroatsBagMonolog
+  <BlackboardField>k__BackingField:
+  - <ID>k__BackingField: e9d22341-7212-44d7-b3ea-b25d0d592213
+    <PersonID>k__BackingField: 2b1c1d65-8e98-4870-ab50-a68af624297c
+    <FieldText>k__BackingField: Player
+    <TypeText>k__BackingField: string
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: ae77fcb2-dbb0-4239-8da1-440e3aef3cf7
+    <Name>k__BackingField: InspectGroup
+    <Position>k__BackingField: {x: -7.200012, y: 160.80002}
+  <DialogNodes>k__BackingField:
+  - <ID>k__BackingField: b8c39264-035b-417d-88c2-5aa02f549af3
+    <Title>k__BackingField: Inspect1
+    <GroupID>k__BackingField: ae77fcb2-dbb0-4239-8da1-440e3aef3cf7
+    <Position>k__BackingField: {x: 690.4, y: 220.8}
+    <SpeakerNodeID>k__BackingField: e6a07577-b0fa-4c1a-afd0-65fcfd0e71ed
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 342647ff-78ce-41ce-a2c9-90eece242fed
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Ich glaube, dieser Sack ist zerrissen.
+    - <Text>k__BackingField: "Hmm, da ist eine Spur, die direkt zum Fenster f\xFChrt."
+    - <Text>k__BackingField: Ich muss dieser Spur folgen.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 38d448b7-79b7-4e6a-b692-3e45570d0a6d
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 38d448b7-79b7-4e6a-b692-3e45570d0a6d
+    <Title>k__BackingField: InspectEnd
+    <GroupID>k__BackingField: ae77fcb2-dbb0-4239-8da1-440e3aef3cf7
+    <Position>k__BackingField: {x: 1244.8, y: 220.8}
+    <SpeakerNodeID>k__BackingField: 
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 55503d19-e9a9-4684-9802-1bf7491cb8fb
+    <Title>k__BackingField: StartLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: -408.8, y: 163.2}
+    <SpeakerNodeID>k__BackingField: 9946b126-1ddf-47b3-bc55-826ceb51565b
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "Ein Sack Gr\xFCtze."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: '*genauer ansehen*'
+      <ConnectedNodeID>k__BackingField: b39c9c05-5980-460b-a31e-40ff09e59af2
+    - <Text>k__BackingField: '*verlassen*'
+      <ConnectedNodeID>k__BackingField: a2dfd43a-4487-4803-8828-634c8cdaba4d
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 1
+  - <ID>k__BackingField: a2dfd43a-4487-4803-8828-634c8cdaba4d
+    <Title>k__BackingField: EndLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 18.4, y: 1085.6}
+    <SpeakerNodeID>k__BackingField: 
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  <PersonNodes>k__BackingField:
+  - <ID>k__BackingField: e6a07577-b0fa-4c1a-afd0-65fcfd0e71ed
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: ae77fcb2-dbb0-4239-8da1-440e3aef3cf7
+    <Position>k__BackingField: {x: 368, y: 448.80002}
+    <BlackboardFieldID>k__BackingField: e9d22341-7212-44d7-b3ea-b25d0d592213
+  - <ID>k__BackingField: 9946b126-1ddf-47b3-bc55-826ceb51565b
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: -656, y: 300}
+    <BlackboardFieldID>k__BackingField: e9d22341-7212-44d7-b3ea-b25d0d592213
+  <ConditionNodes>k__BackingField:
+  - <ID>k__BackingField: b39c9c05-5980-460b-a31e-40ff09e59af2
+    <Title>k__BackingField: ConditionName
+    <GroupID>k__BackingField: ae77fcb2-dbb0-4239-8da1-440e3aef3cf7
+    <Position>k__BackingField: {x: 18.4, y: 238.40001}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062628212
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: b8c39264-035b-417d-88c2-5aa02f549af3
+  <ActionNodes>k__BackingField:
+  - <ID>k__BackingField: 342647ff-78ce-41ce-a2c9-90eece242fed
+    <Title>k__BackingField: InspectAction
+    <GroupID>k__BackingField: ae77fcb2-dbb0-4239-8da1-440e3aef3cf7
+    <Position>k__BackingField: {x: 46.4, y: 611.2}
+    <Actions>k__BackingField:
+    - rid: 9032775280062628213
+    - rid: 9032775280062628214
+    - rid: 9032775280062628215
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775280062628212
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 68a2d7e02b7e2bd41a889920ad98a267, type: 2}
+    - rid: 9032775280062628213
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 68a2d7e02b7e2bd41a889920ad98a267, type: 2}
+    - rid: 9032775280062628214
+      type: {class: SpawnPrefabDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _prefab: {fileID: 4046794309127352743, guid: db9d5209e0def094e981e1eda743168e, type: 3}
+        _position: {x: 17, y: 17, z: 0}
+    - rid: 9032775280062628215
+      type: {class: SpawnPrefabDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _prefab: {fileID: 8087968279695805023, guid: b15982fb788aa0d418f355ea1f0eb1b6, type: 3}
+        _position: {x: 12.75, y: 13.5, z: 0}

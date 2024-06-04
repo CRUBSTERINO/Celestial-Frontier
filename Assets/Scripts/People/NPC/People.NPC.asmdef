@@ -1,0 +1,23 @@
+{
+    "name": "People.NPC",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2f6c627acec08034d8830a3da1b52834",
+        "GUID:d8cfb6314a4dbdb4f89ac46113ccc927",
+        "GUID:e03835472750282449b24d1786fe8c12",
+        "GUID:b87c7c0e723d68a44adf9a0f7f3bdcaf",
+        "GUID:083b14b1af605a74cbb817618f203ec0",
+        "GUID:f75ee24ea3f7551439a278d7783105e5",
+        "GUID:615e71580884c104aa63424ffb7e32db",
+        "GUID:d467cdfbed2ad6043bce94d7774d7362"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

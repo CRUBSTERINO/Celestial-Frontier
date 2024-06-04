@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: Line2
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: Line2
+  <Speaker>k__BackingField: {fileID: 11400000, guid: 18faf33fcd6cc5648b98aa4d1c10ae9f, type: 2}
+  <Listener>k__BackingField: {fileID: 0}
+  <Actions>k__BackingField:
+  - rid: 9032775305473294380
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: New Choice
+    <NextDialog>k__BackingField: {fileID: 11400000, guid: 8c9e08f93e8135149a47e30ac3c37829, type: 2}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField:
+  - _text: Auf der Flasche befindet sich ein seltsames Emblem, das ich sonst noch
+      nie gesehen habe.
+  - _text: Ich muss herausfinden, woher diese Flasche stammt.
+  <IsSelectedByPlayer>k__BackingField: 1
+  <EndsDialog>k__BackingField: 0
+  <IsStarting>k__BackingField: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775305473294380
+      type: {class: AssignTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 882902768eb94fb4ba78caabc0b5ae67, type: 2}

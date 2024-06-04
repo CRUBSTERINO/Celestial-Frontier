@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6052b2be1e9039042be479fad28e1eef, type: 3}
+  m_Name: BanditsLairMainEntranceMonolog
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: BanditsLairMainEntranceMonolog
+  <DialogLines>k__BackingField:
+  - {fileID: 11400000, guid: 2f7ddac15c6273b488d7a40703530df6, type: 2}
+  - {fileID: 11400000, guid: d19857ff889d90a47aa2310e3c29ad7d, type: 2}
+  - {fileID: 11400000, guid: 95ef597676698e04ca864ecc10b574dc, type: 2}
+  - {fileID: 11400000, guid: 2d3cbd72889fe634fa0e0c595031a8eb, type: 2}
+  - {fileID: 11400000, guid: fa81e2218a4f4754f8e29dd7785345e8, type: 2}
+  <StartingDialogLine>k__BackingField: {fileID: 11400000, guid: 2f7ddac15c6273b488d7a40703530df6, type: 2}
+  <Participants>k__BackingField:
+  - {fileID: 11400000, guid: 357eb79260aa6a047ba022ff95c539a4, type: 2}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc667ce8d51026444ad667d10c39fc1f, type: 3}
+  m_Name: FixSpaceship1
+  m_EditorClassIdentifier: 
+  <Title>k__BackingField: FixSpaceship1
+  <Speaker>k__BackingField: {fileID: 11400000, guid: d9402680a86863f40afe674b0ff90259, type: 2}
+  <Listener>k__BackingField: {fileID: 0}
+  <Actions>k__BackingField:
+  - rid: 9032775280062628154
+  - rid: 9032775280062628155
+  - rid: 9032775280062628156
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: New Choice
+    <NextDialog>k__BackingField: {fileID: 0}
+    <Conditions>k__BackingField: []
+  <Sentences>k__BackingField: []
+  <IsSelectedByPlayer>k__BackingField: 1
+  <EndsDialog>k__BackingField: 1
+  <IsStarting>k__BackingField: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775280062628154
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 60d4851122cd6b5429853d72784a1fc3, type: 2}
+    - rid: 9032775280062628155
+      type: {class: SeizeItemDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _item: {fileID: 11400000, guid: 530ab119f7fd9934a88b5c002e6ec7aa, type: 2}
+    - rid: 9032775280062628156
+      type: {class: SeizeItemDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _item: {fileID: 11400000, guid: 10829d978e1ac7b42905379d15496256, type: 2}

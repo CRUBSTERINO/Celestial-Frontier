@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c86cb20d7c8fd24cb01d7c7b1a65f5f, type: 3}
+  m_Name: DialogPromptConfigTest
+  m_EditorClassIdentifier: 
+  _aiRoleModelDescription: 'I want you to act as a dialog participant that rewrites
+    sentences that user provides. Here is your character''s description that you
+    might consider when rewriting sentences: {0}'
+  _personDescription: Name - {0}; Appearance - {1}; Physical attributes - {2}; Abilities,
+    skills and knowledges - {3}; Personality traits - {4}.
+  _interlocutorLine: 'Your interlocutor says: "{0}"'
+  _rewritingPrompt: "Rewrite these sentences: \"{0}\". \n\nRewritten sentences should
+    not loose their original meaning, but should match your personality. They should
+    be comareable with a real human response. You shouldn't include any quotation's
+    mark or your name. Do not add unmentioned information into rewritten sentences,
+    if this information is not in initial sentences. Each generated response must
+    be in GERMAN. You should give only one variant of rewritten sentences."

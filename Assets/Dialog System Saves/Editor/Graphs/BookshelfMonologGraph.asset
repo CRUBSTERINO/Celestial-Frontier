@@ -1,0 +1,295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a770417948000a04db5cb0430b2487ac, type: 3}
+  m_Name: BookshelfMonologGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: BookshelfMonolog
+  <BlackboardField>k__BackingField:
+  - <ID>k__BackingField: 806dd908-6af5-495e-a3e9-df2b49db1d37
+    <PersonID>k__BackingField: 2b1c1d65-8e98-4870-ab50-a68af624297c
+    <FieldText>k__BackingField: Player
+    <TypeText>k__BackingField: string
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 2e939f87-e9eb-40ad-9bfd-6e9a50ee3297
+    <Name>k__BackingField: ExamineBookshelfGroup
+    <Position>k__BackingField: {x: 1525.6, y: 218.40001}
+  - <ID>k__BackingField: 13867ffb-568a-4081-9f78-a45e0a4a72e0
+    <Name>k__BackingField: ExamingCandlestickPlaceGroup
+    <Position>k__BackingField: {x: 1231.2, y: 798.4}
+  - <ID>k__BackingField: 4e75fc9a-ccd1-48be-ab83-33f39419b704
+    <Name>k__BackingField: ReturnCandlestickGroup
+    <Position>k__BackingField: {x: 1234.4, y: 1648.7999}
+  - <ID>k__BackingField: 79f1438b-c4e8-47cc-a138-4734d803ef9e
+    <Name>k__BackingField: EnterTunnelGroup
+    <Position>k__BackingField: {x: 1234.4, y: 2469.5999}
+  <DialogNodes>k__BackingField:
+  - <ID>k__BackingField: c6d4a07d-c679-4e39-b5d8-3c1916f716b2
+    <Title>k__BackingField: ExamineBookshelf2
+    <GroupID>k__BackingField: 2e939f87-e9eb-40ad-9bfd-6e9a50ee3297
+    <Position>k__BackingField: {x: 2620.8, y: 278.40002}
+    <SpeakerNodeID>k__BackingField: d5df935a-187a-4c39-8bb5-e40c71f4b6fb
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "Das B\xFCcherregal bewegt sich nicht."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: f250a6ee-2760-4f62-8f68-1b116b93b1b0
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: e6630088-9b76-4dff-bf4c-ee41f240de96
+    <Title>k__BackingField: ExamineCandlestickPlace2
+    <GroupID>k__BackingField: 13867ffb-568a-4081-9f78-a45e0a4a72e0
+    <Position>k__BackingField: {x: 2552.8, y: 858.4}
+    <SpeakerNodeID>k__BackingField: e7861c5d-262b-48b0-92d5-40fe22db04ec
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: edf28eee-cf96-42e6-b4b9-c2da9e2b0f4a
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "Wenn sie gedr\xFCckt wird, scheint es sich um eine
+        Druckplatte zu handeln."
+    - <Text>k__BackingField: "Durch einfaches Dr\xFCcken wird sie jedoch nicht aktiviert.
+        Vermutlich braucht man einen Kerzenst\xE4nder."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: f250a6ee-2760-4f62-8f68-1b116b93b1b0
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: eeda9f63-9158-4103-afc9-47d5b3af76b1
+    <Title>k__BackingField: ExamineBookshelf1
+    <GroupID>k__BackingField: 2e939f87-e9eb-40ad-9bfd-6e9a50ee3297
+    <Position>k__BackingField: {x: 1883.2, y: 278.40002}
+    <SpeakerNodeID>k__BackingField: 63e09cc9-fb30-46cf-af06-38b4174e8bc5
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "Hinter dem B\xFCcherregal befindet sich eine Art Durchgang."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "*zur\xFCckzuziehen versuchen*"
+      <ConnectedNodeID>k__BackingField: c6d4a07d-c679-4e39-b5d8-3c1916f716b2
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: fa76c0a2-8f81-4ee8-878a-7d10c694eda5
+    <Title>k__BackingField: ExamineCandlestickPlace1
+    <GroupID>k__BackingField: 13867ffb-568a-4081-9f78-a45e0a4a72e0
+    <Position>k__BackingField: {x: 1917.6, y: 874.4}
+    <SpeakerNodeID>k__BackingField: 3964d57b-5bb9-4be1-b1f4-ef9428a74b6b
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "Die leere Vertiefung, in der fr\xFCher der Kerzenst\xE4nder
+        stand."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "*auf den Boden des Hohlraums zu dr\xFCcken versuchen*"
+      <ConnectedNodeID>k__BackingField: e6630088-9b76-4dff-bf4c-ee41f240de96
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 66d37558-9cce-40e5-8e19-0e6ef7fb171d
+    <Title>k__BackingField: ReturnCandlestick1
+    <GroupID>k__BackingField: 4e75fc9a-ccd1-48be-ab83-33f39419b704
+    <Position>k__BackingField: {x: 1882.4, y: 1759.2}
+    <SpeakerNodeID>k__BackingField: 0f63750b-32d3-42ba-8ac9-32824bd70826
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: bf5186cb-d76b-4125-b749-bc74e75177ea
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "Als er den Kerzenst\xE4nder wieder an seinen Platz
+        stellte, klickte etwas im B\xFCcherregal."
+    - <Text>k__BackingField: "Offenbar kann das B\xFCcherregal jetzt entfernt werden."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "*hinter das B\xFCcherregal gehen*"
+      <ConnectedNodeID>k__BackingField: 739a4d86-7939-4269-b349-00620d10d0bb
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: dc35e6ba-e589-49fb-8b54-146206d0cfa0
+    <Title>k__BackingField: StartLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 559.2, y: 328.80002}
+    <SpeakerNodeID>k__BackingField: a4d576f7-d060-4436-bd55-b20d1f9c171a
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "B\xFCcherregal im Keller."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: '*Sieh dir das Regal an*'
+      <ConnectedNodeID>k__BackingField: eeda9f63-9158-4103-afc9-47d5b3af76b1
+    - <Text>k__BackingField: '*die Aussparung des Kerzenhalters inspizieren*'
+      <ConnectedNodeID>k__BackingField: dc579b15-4f5c-4268-b383-7292d13762e7
+    - <Text>k__BackingField: "*den Kerzenst\xE4nder wieder an seinen Platz stellen*"
+      <ConnectedNodeID>k__BackingField: fda76cec-b8c6-4ff4-8d98-8911e0d42a75
+    - <Text>k__BackingField: "*hinter das B\xFCcherregal gehen*"
+      <ConnectedNodeID>k__BackingField: 12b5e2d7-8ae8-4f92-a207-d1d8d882af94
+    - <Text>k__BackingField: '*verlassen*'
+      <ConnectedNodeID>k__BackingField: 195dc87a-d626-4f64-a226-c217b570c127
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 1
+  - <ID>k__BackingField: 739a4d86-7939-4269-b349-00620d10d0bb
+    <Title>k__BackingField: EnterTunnelEnd
+    <GroupID>k__BackingField: 79f1438b-c4e8-47cc-a138-4734d803ef9e
+    <Position>k__BackingField: {x: 2555.2, y: 2529.5999}
+    <SpeakerNodeID>k__BackingField: 7d0f87df-715e-4324-be12-8ea8745e99b8
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 5c4046f9-418a-4b2e-b242-e26dcdb50bfd
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: f250a6ee-2760-4f62-8f68-1b116b93b1b0
+    <Title>k__BackingField: EndLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 3544.8, y: 653.60004}
+    <SpeakerNodeID>k__BackingField: fc123a45-48dd-4891-ba65-6e707e4b5730
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 195dc87a-d626-4f64-a226-c217b570c127
+    <Title>k__BackingField: leaveLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1224.8, y: -146.4}
+    <SpeakerNodeID>k__BackingField: 
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  <PersonNodes>k__BackingField:
+  - <ID>k__BackingField: 63e09cc9-fb30-46cf-af06-38b4174e8bc5
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 2e939f87-e9eb-40ad-9bfd-6e9a50ee3297
+    <Position>k__BackingField: {x: 1551.2, y: 538.4}
+    <BlackboardFieldID>k__BackingField: 806dd908-6af5-495e-a3e9-df2b49db1d37
+  - <ID>k__BackingField: d5df935a-187a-4c39-8bb5-e40c71f4b6fb
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 2e939f87-e9eb-40ad-9bfd-6e9a50ee3297
+    <Position>k__BackingField: {x: 2332, y: 563.2}
+    <BlackboardFieldID>k__BackingField: 806dd908-6af5-495e-a3e9-df2b49db1d37
+  - <ID>k__BackingField: 3964d57b-5bb9-4be1-b1f4-ef9428a74b6b
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 13867ffb-568a-4081-9f78-a45e0a4a72e0
+    <Position>k__BackingField: {x: 1566.4, y: 1109.6}
+    <BlackboardFieldID>k__BackingField: 806dd908-6af5-495e-a3e9-df2b49db1d37
+  - <ID>k__BackingField: e7861c5d-262b-48b0-92d5-40fe22db04ec
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 13867ffb-568a-4081-9f78-a45e0a4a72e0
+    <Position>k__BackingField: {x: 2114.4, y: 1269.6}
+    <BlackboardFieldID>k__BackingField: 806dd908-6af5-495e-a3e9-df2b49db1d37
+  - <ID>k__BackingField: a4d576f7-d060-4436-bd55-b20d1f9c171a
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 236, y: 448.80002}
+    <BlackboardFieldID>k__BackingField: 806dd908-6af5-495e-a3e9-df2b49db1d37
+  - <ID>k__BackingField: 0f63750b-32d3-42ba-8ac9-32824bd70826
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 4e75fc9a-ccd1-48be-ab83-33f39419b704
+    <Position>k__BackingField: {x: 1551.2, y: 1920}
+    <BlackboardFieldID>k__BackingField: 806dd908-6af5-495e-a3e9-df2b49db1d37
+  - <ID>k__BackingField: 7d0f87df-715e-4324-be12-8ea8745e99b8
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 79f1438b-c4e8-47cc-a138-4734d803ef9e
+    <Position>k__BackingField: {x: 2266.4, y: 2684}
+    <BlackboardFieldID>k__BackingField: 806dd908-6af5-495e-a3e9-df2b49db1d37
+  - <ID>k__BackingField: fc123a45-48dd-4891-ba65-6e707e4b5730
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 3277.6, y: 934.4}
+    <BlackboardFieldID>k__BackingField: 806dd908-6af5-495e-a3e9-df2b49db1d37
+  <ConditionNodes>k__BackingField:
+  - <ID>k__BackingField: dc579b15-4f5c-4268-b383-7292d13762e7
+    <Title>k__BackingField: ExamineCandlestickPlaceCondition
+    <GroupID>k__BackingField: 13867ffb-568a-4081-9f78-a45e0a4a72e0
+    <Position>k__BackingField: {x: 1256.8, y: 858.4}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062627978
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: fa76c0a2-8f81-4ee8-878a-7d10c694eda5
+  - <ID>k__BackingField: 12b5e2d7-8ae8-4f92-a207-d1d8d882af94
+    <Title>k__BackingField: EnterTunnelCondition
+    <GroupID>k__BackingField: 79f1438b-c4e8-47cc-a138-4734d803ef9e
+    <Position>k__BackingField: {x: 1260, y: 2564}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062627979
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: 739a4d86-7939-4269-b349-00620d10d0bb
+  - <ID>k__BackingField: fda76cec-b8c6-4ff4-8d98-8911e0d42a75
+    <Title>k__BackingField: ReturnCandlestickCondition
+    <GroupID>k__BackingField: 4e75fc9a-ccd1-48be-ab83-33f39419b704
+    <Position>k__BackingField: {x: 1321.6, y: 1708.7999}
+    <Conditions>k__BackingField:
+    - rid: 9032775280062627980
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: 66d37558-9cce-40e5-8e19-0e6ef7fb171d
+  <ActionNodes>k__BackingField:
+  - <ID>k__BackingField: edf28eee-cf96-42e6-b4b9-c2da9e2b0f4a
+    <Title>k__BackingField: ActionName
+    <GroupID>k__BackingField: 13867ffb-568a-4081-9f78-a45e0a4a72e0
+    <Position>k__BackingField: {x: 1804, y: 1360.7999}
+    <Actions>k__BackingField:
+    - rid: 9032775280062627981
+  - <ID>k__BackingField: bf5186cb-d76b-4125-b749-bc74e75177ea
+    <Title>k__BackingField: ReturnCandlestickAction
+    <GroupID>k__BackingField: 4e75fc9a-ccd1-48be-ab83-33f39419b704
+    <Position>k__BackingField: {x: 1260, y: 1996.7999}
+    <Actions>k__BackingField:
+    - rid: 9032775280062627982
+  - <ID>k__BackingField: 5c4046f9-418a-4b2e-b242-e26dcdb50bfd
+    <Title>k__BackingField: EnterTunnelAction
+    <GroupID>k__BackingField: 79f1438b-c4e8-47cc-a138-4734d803ef9e
+    <Position>k__BackingField: {x: 1856.8, y: 2782.4}
+    <Actions>k__BackingField:
+    - rid: 9032775280062627983
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775280062627978
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 6cc8e81587bb80a4788bfaee4bd2d8f1, type: 2}
+    - rid: 9032775280062627979
+      type: {class: CompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 9d59bd931065ca149a32ced7c95c3519, type: 2}
+    - rid: 9032775280062627980
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: 9d59bd931065ca149a32ced7c95c3519, type: 2}
+    - rid: 9032775280062627981
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 6cc8e81587bb80a4788bfaee4bd2d8f1, type: 2}
+    - rid: 9032775280062627982
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: 9d59bd931065ca149a32ced7c95c3519, type: 2}
+    - rid: 9032775280062627983
+      type: {class: LoadSceneDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _targetSceneEntrance: {fileID: 11400000, guid: 595461f54793e9846861bdc570dd4550, type: 2}

@@ -1,0 +1,342 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a770417948000a04db5cb0430b2487ac, type: 3}
+  m_Name: PriestDialogsGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: PriestDialogs
+  <BlackboardField>k__BackingField:
+  - <ID>k__BackingField: 85bb1c62-d8f6-4e6c-864b-9c39276c9e09
+    <PersonID>k__BackingField: 2b1c1d65-8e98-4870-ab50-a68af624297c
+    <FieldText>k__BackingField: Player
+    <TypeText>k__BackingField: string
+  - <ID>k__BackingField: 4677077d-37f7-40d5-b3dd-97144ba1abe1
+    <PersonID>k__BackingField: 002b9f44-1821-46a4-8945-3712618083cf
+    <FieldText>k__BackingField: Priest
+    <TypeText>k__BackingField: string
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Name>k__BackingField: LookAroundChurchGroup
+    <Position>k__BackingField: {x: 1217.6, y: 448}
+  - <ID>k__BackingField: 2f598b9e-67a7-4801-9a38-13ec9e6ef909
+    <Name>k__BackingField: MeetGroup
+    <Position>k__BackingField: {x: 1232.8, y: 1272}
+  <DialogNodes>k__BackingField:
+  - <ID>k__BackingField: f1ba2491-41be-4b7a-b0f9-6f4cd017e751
+    <Title>k__BackingField: StartLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 648.8, y: 412}
+    <SpeakerNodeID>k__BackingField: 94a31146-a6ee-41c9-ae1b-60a0a4be6fa1
+    <ListenerNodeID>k__BackingField: 1a7869fb-e80e-4ccf-9b52-01971f12c979
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Good afternoon.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Ist Ihnen etwas Merkw\xFCrdiges aufgefallen?"
+      <ConnectedNodeID>k__BackingField: 61309e39-03dd-4649-afa5-d951ce7cea03
+    - <Text>k__BackingField: Guten Tag, Herr Pfarrer
+      <ConnectedNodeID>k__BackingField: dd0a85a5-4442-4e79-978f-ecc3c1b7d292
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 1
+  - <ID>k__BackingField: 13fb2022-4400-497a-8b09-f8abb8308d8d
+    <Title>k__BackingField: LookAroundChurch1
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 1870.4, y: 508}
+    <SpeakerNodeID>k__BackingField: 63d95c3a-74ff-4875-ba69-2d82f20b080e
+    <ListenerNodeID>k__BackingField: 2fa33218-2c58-48d8-9c9f-996930d9b9c4
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "\u0412\u043E\u0437\u043B\u0435 \u0446\u0435\u0440\u043A\u0432\u0438
+        \u0430\u043A\u0442\u0438\u0432\u043D\u0438\u0447\u0430\u044E\u0442 \u0440\u0430\u0437\u0431\u043E\u0439\u043D\u0438\u043A\u0438,
+        \u043D\u0435 \u0437\u0430\u043C\u0435\u0447\u0430\u043B\u0438 \u043B\u0438
+        \u0412\u044B \u043D\u0438\u0447\u0435\u0433\u043E \u0441\u0442\u0440\u0430\u043D\u043D\u043E\u0433\u043E?"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 33bdf551-e9fa-4438-b495-3330a343d173
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 33bdf551-e9fa-4438-b495-3330a343d173
+    <Title>k__BackingField: LookAroundChurch2
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 2700, y: 508}
+    <SpeakerNodeID>k__BackingField: 51aa8b65-afd7-42c4-b394-56274d7d6f0b
+    <ListenerNodeID>k__BackingField: 44d4d3eb-f830-4a16-a363-0bca27fea7ec
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "\u041F\u043E\u0441\u043B\u0435\u0434\u043D\u0435\u0435
+        \u0432\u0440\u0435\u043C\u044F \u0432 \u0446\u0435\u0440\u043A\u0432\u0438
+        \u0438 \u043C\u043E\u0438\u0445 \u043F\u043E\u043A\u043E\u044F\u0445 \u043F\u043E\u0441\u0442\u043E\u044F\u043D\u043D\u043E
+        \u043F\u0440\u043E\u043F\u0430\u0434\u0430\u044E\u0442 \u043A\u0430\u043A\u0438\u0435-\u0442\u043E
+        \u0446\u0435\u043D\u043D\u044B\u0435 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u044B."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Darf ich Ihre Quartiere sehen?
+      <ConnectedNodeID>k__BackingField: 5a2f680f-3015-4b64-b8f6-f40d5adba757
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: a96caa68-0ae5-452c-8c6f-c6ce75c94c5a
+    <Title>k__BackingField: LookAroundChurch4
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 4551.2, y: 508}
+    <SpeakerNodeID>k__BackingField: a7b3d44e-a2c5-48ab-bc86-49a8ba983966
+    <ListenerNodeID>k__BackingField: 4c684ba2-2b9b-449b-bef4-c5ff0f54ac23
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "\u041A\u043E\u043D\u0435\u0447\u043D\u043E, \u0435\u0441\u043B\u0438
+        \u044D\u0442\u043E \u043F\u043E\u043C\u043E\u0436\u0435\u0442 \u043F\u0440\u0435\u0434\u043E\u0442\u0432\u0440\u0430\u0442\u0438\u0442\u044C
+        \u044D\u0442\u0438 \u043A\u0440\u0430\u0436\u0438, \u0442\u043E \u044F \u0431\u0443\u0434\u0443
+        \u0442\u043E\u043B\u044C\u043A\u043E \u0440\u0430\u0434."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: ce5d89b8-31c7-43bd-a545-e1058269ce8e
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: ce5d89b8-31c7-43bd-a545-e1058269ce8e
+    <Title>k__BackingField: LookAroundChurchEnd
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 5449.6, y: 508}
+    <SpeakerNodeID>k__BackingField: 55ac8b4c-513b-47ac-bb79-4d088cd695a6
+    <ListenerNodeID>k__BackingField: 6d12384c-8606-4bcb-8301-3ee40ff59fd1
+    <ActionNodeID>k__BackingField: 3abdbcc0-4d3c-42b6-9a95-37a3c9b59629
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 5a2f680f-3015-4b64-b8f6-f40d5adba757
+    <Title>k__BackingField: LookAroundChurch3
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 3639.2, y: 508}
+    <SpeakerNodeID>k__BackingField: 49ca57e1-867c-4791-bd04-bd9dfec9dee3
+    <ListenerNodeID>k__BackingField: c1bc0c90-bcd3-43e2-9266-c3ff6b5784c8
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: "\u042F \u0437\u0430\u043D\u0438\u043C\u0430\u044E\u0441\u044C
+        \u043F\u043E\u0438\u0441\u043A\u043E\u043C \u044D\u0442\u0438\u0445 \u0431\u0430\u043D\u0434\u0438\u0442\u043E\u0432,
+        \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u0435\u0441\u043B\u0438 \u0434\u043B\u044F
+        \u0432\u0430\u0441 \u043D\u0430 \u0441\u043E\u0441\u0442\u0430\u0432\u0438\u0442
+        \u043F\u0440\u043E\u0431\u043B\u0435\u043C \u0434\u0430\u0442\u044C \u043C\u043D\u0435
+        \u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C\u0441\u044F \u0432
+        \u0432\u0430\u0448\u0438\u0445 \u043F\u043E\u043A\u043E\u044F\u0445, \u044F
+        \u0431\u044B\u043B \u0431\u044B \u0432\u0430\u043C \u043E\u0447\u0435\u043D\u044C
+        \u0431\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u0435\u043D."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: a96caa68-0ae5-452c-8c6f-c6ce75c94c5a
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: bc1fcfef-49eb-4944-8193-28d0b40be3b6
+    <Title>k__BackingField: LeaveLine
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 1217.6, y: 88.8}
+    <SpeakerNodeID>k__BackingField: 
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 79bca058-b6fb-4251-9f21-a5ad84febe19
+    <Title>k__BackingField: Meet1
+    <GroupID>k__BackingField: 2f598b9e-67a7-4801-9a38-13ec9e6ef909
+    <Position>k__BackingField: {x: 1972.8, y: 1332}
+    <SpeakerNodeID>k__BackingField: 02aeb051-34e8-4923-b887-b2010ff2594e
+    <ListenerNodeID>k__BackingField: 745389f7-d611-4be6-b4dd-29a5d1abfacf
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: Good afternoon father, it's a pleasure to meet you.
+    - <Text>k__BackingField: I am a newcomer in this town.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 9ea088a0-44b6-4b36-82a0-90036419dcab
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: 9ea088a0-44b6-4b36-82a0-90036419dcab
+    <Title>k__BackingField: Mee2
+    <GroupID>k__BackingField: 2f598b9e-67a7-4801-9a38-13ec9e6ef909
+    <Position>k__BackingField: {x: 2712.8, y: 1332}
+    <SpeakerNodeID>k__BackingField: f90166a5-c177-4e53-b25a-819b33239e3d
+    <ListenerNodeID>k__BackingField: 13220102-6550-4191-bcb1-40bf69af6fee
+    <ActionNodeID>k__BackingField: 
+    <Sentences>k__BackingField:
+    - <Text>k__BackingField: It's very great that you are here. Pleasure to meet.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Einen sch\xF6nen Tag noch"
+      <ConnectedNodeID>k__BackingField: e35c9cc8-eaac-4ed6-91d7-d65155ab6d7e
+    <IsSelectedByPlayer>k__BackingField: 0
+    <EndsDialog>k__BackingField: 0
+    <IsStarting>k__BackingField: 0
+  - <ID>k__BackingField: e35c9cc8-eaac-4ed6-91d7-d65155ab6d7e
+    <Title>k__BackingField: MeetEnd
+    <GroupID>k__BackingField: 2f598b9e-67a7-4801-9a38-13ec9e6ef909
+    <Position>k__BackingField: {x: 3412.8, y: 1332}
+    <SpeakerNodeID>k__BackingField: 955be578-324b-47f4-ae1c-1dab0ec9f50e
+    <ListenerNodeID>k__BackingField: 
+    <ActionNodeID>k__BackingField: f81fddaa-ff91-437c-8266-14b5d7e45781
+    <Sentences>k__BackingField: []
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: New Choice
+      <ConnectedNodeID>k__BackingField: 
+    <IsSelectedByPlayer>k__BackingField: 1
+    <EndsDialog>k__BackingField: 1
+    <IsStarting>k__BackingField: 0
+  <PersonNodes>k__BackingField:
+  - <ID>k__BackingField: 94a31146-a6ee-41c9-ae1b-60a0a4be6fa1
+    <Title>k__BackingField: Priest
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 365.6, y: 597.60004}
+    <BlackboardFieldID>k__BackingField: 4677077d-37f7-40d5-b3dd-97144ba1abe1
+  - <ID>k__BackingField: 1a7869fb-e80e-4ccf-9b52-01971f12c979
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 
+    <Position>k__BackingField: {x: 365.6, y: 675.2}
+    <BlackboardFieldID>k__BackingField: 85bb1c62-d8f6-4e6c-864b-9c39276c9e09
+  - <ID>k__BackingField: 55ac8b4c-513b-47ac-bb79-4d088cd695a6
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 5170.4, y: 812.8}
+    <BlackboardFieldID>k__BackingField: 85bb1c62-d8f6-4e6c-864b-9c39276c9e09
+  - <ID>k__BackingField: 6d12384c-8606-4bcb-8301-3ee40ff59fd1
+    <Title>k__BackingField: Priest
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 5170.4, y: 889.60004}
+    <BlackboardFieldID>k__BackingField: 4677077d-37f7-40d5-b3dd-97144ba1abe1
+  - <ID>k__BackingField: 51aa8b65-afd7-42c4-b394-56274d7d6f0b
+    <Title>k__BackingField: Priest
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 2348, y: 884.8}
+    <BlackboardFieldID>k__BackingField: 4677077d-37f7-40d5-b3dd-97144ba1abe1
+  - <ID>k__BackingField: 44d4d3eb-f830-4a16-a363-0bca27fea7ec
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 2348, y: 961.60004}
+    <BlackboardFieldID>k__BackingField: 85bb1c62-d8f6-4e6c-864b-9c39276c9e09
+  - <ID>k__BackingField: 49ca57e1-867c-4791-bd04-bd9dfec9dee3
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 3262.4, y: 914.4}
+    <BlackboardFieldID>k__BackingField: 85bb1c62-d8f6-4e6c-864b-9c39276c9e09
+  - <ID>k__BackingField: c1bc0c90-bcd3-43e2-9266-c3ff6b5784c8
+    <Title>k__BackingField: Priest
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 3262.4, y: 991.2}
+    <BlackboardFieldID>k__BackingField: 4677077d-37f7-40d5-b3dd-97144ba1abe1
+  - <ID>k__BackingField: a7b3d44e-a2c5-48ab-bc86-49a8ba983966
+    <Title>k__BackingField: Priest
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 4272.8, y: 903.2}
+    <BlackboardFieldID>k__BackingField: 4677077d-37f7-40d5-b3dd-97144ba1abe1
+  - <ID>k__BackingField: 4c684ba2-2b9b-449b-bef4-c5ff0f54ac23
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 4272.8, y: 980}
+    <BlackboardFieldID>k__BackingField: 85bb1c62-d8f6-4e6c-864b-9c39276c9e09
+  - <ID>k__BackingField: 63d95c3a-74ff-4875-ba69-2d82f20b080e
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 1592.8, y: 788}
+    <BlackboardFieldID>k__BackingField: 85bb1c62-d8f6-4e6c-864b-9c39276c9e09
+  - <ID>k__BackingField: 2fa33218-2c58-48d8-9c9f-996930d9b9c4
+    <Title>k__BackingField: Priest
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 1592.8, y: 864.8}
+    <BlackboardFieldID>k__BackingField: 4677077d-37f7-40d5-b3dd-97144ba1abe1
+  - <ID>k__BackingField: 02aeb051-34e8-4923-b887-b2010ff2594e
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 2f598b9e-67a7-4801-9a38-13ec9e6ef909
+    <Position>k__BackingField: {x: 1620.8, y: 1560}
+    <BlackboardFieldID>k__BackingField: 85bb1c62-d8f6-4e6c-864b-9c39276c9e09
+  - <ID>k__BackingField: 745389f7-d611-4be6-b4dd-29a5d1abfacf
+    <Title>k__BackingField: Priest
+    <GroupID>k__BackingField: 2f598b9e-67a7-4801-9a38-13ec9e6ef909
+    <Position>k__BackingField: {x: 1620.8, y: 1636.7999}
+    <BlackboardFieldID>k__BackingField: 4677077d-37f7-40d5-b3dd-97144ba1abe1
+  - <ID>k__BackingField: 955be578-324b-47f4-ae1c-1dab0ec9f50e
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 2f598b9e-67a7-4801-9a38-13ec9e6ef909
+    <Position>k__BackingField: {x: 3136, y: 1560}
+    <BlackboardFieldID>k__BackingField: 85bb1c62-d8f6-4e6c-864b-9c39276c9e09
+  - <ID>k__BackingField: f90166a5-c177-4e53-b25a-819b33239e3d
+    <Title>k__BackingField: Priest
+    <GroupID>k__BackingField: 2f598b9e-67a7-4801-9a38-13ec9e6ef909
+    <Position>k__BackingField: {x: 2402.4, y: 1560}
+    <BlackboardFieldID>k__BackingField: 4677077d-37f7-40d5-b3dd-97144ba1abe1
+  - <ID>k__BackingField: 13220102-6550-4191-bcb1-40bf69af6fee
+    <Title>k__BackingField: Player
+    <GroupID>k__BackingField: 2f598b9e-67a7-4801-9a38-13ec9e6ef909
+    <Position>k__BackingField: {x: 2402.4, y: 1636.7999}
+    <BlackboardFieldID>k__BackingField: 85bb1c62-d8f6-4e6c-864b-9c39276c9e09
+  <ConditionNodes>k__BackingField:
+  - <ID>k__BackingField: dd0a85a5-4442-4e79-978f-ecc3c1b7d292
+    <Title>k__BackingField: MeetCodnition
+    <GroupID>k__BackingField: 2f598b9e-67a7-4801-9a38-13ec9e6ef909
+    <Position>k__BackingField: {x: 1258.4, y: 1332}
+    <Conditions>k__BackingField:
+    - rid: 9032775305167372504
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: 79bca058-b6fb-4251-9f21-a5ad84febe19
+  - <ID>k__BackingField: 61309e39-03dd-4649-afa5-d951ce7cea03
+    <Title>k__BackingField: ConditionName
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 1243.2, y: 508}
+    <Conditions>k__BackingField:
+    - rid: 9032775305167372505
+    - rid: 9032775305167372506
+    <TargetNode>k__BackingField:
+      <Text>k__BackingField: 
+      <ConnectedNodeID>k__BackingField: 13fb2022-4400-497a-8b09-f8abb8308d8d
+  <ActionNodes>k__BackingField:
+  - <ID>k__BackingField: 3abdbcc0-4d3c-42b6-9a95-37a3c9b59629
+    <Title>k__BackingField: ActionName
+    <GroupID>k__BackingField: 676efcf1-1220-41c9-b56e-06515a6273b5
+    <Position>k__BackingField: {x: 4873.6, y: 980}
+    <Actions>k__BackingField:
+    - rid: 9032775305167372507
+  - <ID>k__BackingField: f81fddaa-ff91-437c-8266-14b5d7e45781
+    <Title>k__BackingField: MeetAction
+    <GroupID>k__BackingField: 2f598b9e-67a7-4801-9a38-13ec9e6ef909
+    <Position>k__BackingField: {x: 2883.2, y: 1770.3999}
+    <Actions>k__BackingField:
+    - rid: 9032775305167372508
+  references:
+    version: 2
+    RefIds:
+    - rid: 9032775305167372504
+      type: {class: UncompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: dccc6d9e3ee516646a7f6b63aa9c6fd9, type: 2}
+    - rid: 9032775305167372505
+      type: {class: ActiveTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: e32116d5ed0527d44b132fc0d5ef9ac3, type: 2}
+    - rid: 9032775305167372506
+      type: {class: CompletedTaskCondition, ns: DialogSystem.Conditions, asm: Assembly-CSharp}
+      data:
+        _taskConfig: {fileID: 11400000, guid: dccc6d9e3ee516646a7f6b63aa9c6fd9, type: 2}
+    - rid: 9032775305167372507
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: e32116d5ed0527d44b132fc0d5ef9ac3, type: 2}
+    - rid: 9032775305167372508
+      type: {class: ForceCompleteTaskDialogAction, ns: DialogSystem.Actions, asm: Assembly-CSharp}
+      data:
+        _task: {fileID: 11400000, guid: dccc6d9e3ee516646a7f6b63aa9c6fd9, type: 2}

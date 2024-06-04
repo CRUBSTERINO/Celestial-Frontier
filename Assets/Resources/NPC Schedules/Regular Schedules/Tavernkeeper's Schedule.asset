@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a8cd84592ac16b4ba4cb586c8f34bb0, type: 3}
+  m_Name: Tavernkeeper's Schedule
+  m_EditorClassIdentifier: 
+  _activities:
+  - _location: {x: -2.5, y: 15.75, z: 0}
+    _interval:
+      _fromHours: 0
+      _fromMinutes: 0
+      _toHours: 7
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: 10bf28b0020f3ea43976d4bd7bb172a1, type: 2}
+  - _location: {x: 20.5, y: 2.5, z: 0}
+    _interval:
+      _fromHours: 8
+      _fromMinutes: 0
+      _toHours: 13
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: 10bf28b0020f3ea43976d4bd7bb172a1, type: 2}
+  - _location: {x: 8.25, y: 13.75, z: 0}
+    _interval:
+      _fromHours: 14
+      _fromMinutes: 0
+      _toHours: 15
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: 10bf28b0020f3ea43976d4bd7bb172a1, type: 2}
+  - _location: {x: 2.75, y: 3.25, z: 0}
+    _interval:
+      _fromHours: 16
+      _fromMinutes: 0
+      _toHours: 21
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: 10bf28b0020f3ea43976d4bd7bb172a1, type: 2}
+  - _location: {x: -2.5, y: 15.75, z: 0}
+    _interval:
+      _fromHours: 22
+      _fromMinutes: 0
+      _toHours: 23
+      _toMinutes: 59
+    _scene: {fileID: 11400000, guid: 10bf28b0020f3ea43976d4bd7bb172a1, type: 2}
+  _npcPrefab: {fileID: 4154795946126022528, guid: b5f9ebdca6f9a274eb23b05280630fea, type: 3}
+  _shouldBeChecked: 1
